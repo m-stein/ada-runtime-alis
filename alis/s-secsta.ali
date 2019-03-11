@@ -16,12 +16,12 @@ W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.storage_elements%s  s-stoele.adb	s-stoele.ali
 
-D ss_utils.ads		20190214095141 f7bf9251 ss_utils%s
-D system.ads		20190214095141 811ff877 system%s
-D s-parame.ads		20190214095141 82b116e0 system.parameters%s
-D s-secsta.ads		20190214095141 416b2b4a system.secondary_stack%s
-D s-secsta.adb		20190214095141 cd3cc76a system.secondary_stack%b
-D s-stoele.ads		20190214095141 2dc34a04 system.storage_elements%s
+D ss_utils.ads		00000000000000 f7bf9251 ss_utils%s
+D system.ads		00000000000000 811ff877 system%s
+D s-parame.ads		00000000000000 82b116e0 system.parameters%s
+D s-secsta.ads		00000000000000 416b2b4a system.secondary_stack%s
+D s-secsta.adb		00000000000000 cd3cc76a system.secondary_stack%b
+D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
 X 1 ss_utils.ads
 15K9*Ss_Utils 104e13 4|12w6 13r14 55r22 55r43 5|17r20 17r39 19r15 20r10 32r20
 . 32r39 34r15 35r10 49r20 49r39 51r15 52r10

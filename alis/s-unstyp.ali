@@ -10,8 +10,8 @@ RV SPARK_05
 U system.unsigned_types%s  s-unstyp.ads		1c475cb7 NE OL PU PK
 W system%s		system.ads		system.ali
 
-D system.ads		20190214095141 811ff877 system%s
-D s-unstyp.ads		20190214095141 9d58a4c0 system.unsigned_types%s
+D system.ads		00000000000000 811ff877 system%s
+D s-unstyp.ads		00000000000000 9d58a4c0 system.unsigned_types%s
 X 1 system.ads
 47K9*System 178e11 2|40r9 211r5
 X 2 s-unstyp.ads

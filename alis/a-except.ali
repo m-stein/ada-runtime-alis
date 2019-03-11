@@ -26,22 +26,22 @@ W ada%s			ada.ads			ada.ali
 W system%s		system.ads		system.ali
 W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D ada.ads		20190214095141 3ffc8e18 ada%s
-D a-except.ads		20190214095141 387ac0a1 ada.exceptions%s
-D a-except.adb		20190214095141 d989cb3a ada.exceptions%b
-D a-unccon.ads		20190214095141 f9eb8f06 ada.unchecked_conversion%s
-D ada_exceptions.ads	20190214095141 edfdf842 ada_exceptions%s
-D platform.ads		20190214095141 9fb468df platform%s
-D ss_utils.ads		20190214095141 f7bf9251 ss_utils%s
-D string_utils.ads	20190214095141 52b83238 string_utils%s
-D system.ads		20190214095141 811ff877 system%s
-D s-imgint.ads		20190214095141 02dbe0c2 system.img_int%s
-D s-parame.ads		20190214095141 82b116e0 system.parameters%s
-D s-secsta.ads		20190214095141 416b2b4a system.secondary_stack%s
-D s-soflin.ads		20190214095141 feb01b63 system.soft_links%s
-D s-stalib.ads		20190214095141 f911792b system.standard_library%s
-D s-stoele.ads		20190214095141 2dc34a04 system.storage_elements%s
-D s-unstyp.ads		20190214095141 9d58a4c0 system.unsigned_types%s
+D ada.ads		00000000000000 3ffc8e18 ada%s
+D a-except.ads		00000000000000 387ac0a1 ada.exceptions%s
+D a-except.adb		00000000000000 d989cb3a ada.exceptions%b
+D a-unccon.ads		00000000000000 f9eb8f06 ada.unchecked_conversion%s
+D ada_exceptions.ads	00000000000000 edfdf842 ada_exceptions%s
+D platform.ads		00000000000000 9fb468df platform%s
+D ss_utils.ads		00000000000000 f7bf9251 ss_utils%s
+D string_utils.ads	00000000000000 52b83238 string_utils%s
+D system.ads		00000000000000 811ff877 system%s
+D s-imgint.ads		00000000000000 02dbe0c2 system.img_int%s
+D s-parame.ads		00000000000000 82b116e0 system.parameters%s
+D s-secsta.ads		00000000000000 416b2b4a system.secondary_stack%s
+D s-soflin.ads		00000000000000 feb01b63 system.soft_links%s
+D s-stalib.ads		00000000000000 f911792b system.standard_library%s
+D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		00000000000000 9d58a4c0 system.unsigned_types%s
 X 1 ada.ads
 16K9*Ada 19e8 2|15r9 58r5 3|18r14 721r5
 X 2 a-except.ads

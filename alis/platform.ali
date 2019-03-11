@@ -13,11 +13,11 @@ U platform%s		platform.ads		f35668ea BN NE OO PR PK
 W ada_exceptions%s	ada_exceptions.ads	ada_exceptions.ali
 W system%s		system.ads		system.ali
 
-D ada_exceptions.ads	20190214095141 edfdf842 ada_exceptions%s
-D platform.ads		20190214095141 9fb468df platform%s
-D platform.adb		20190214095141 dd676415 platform%b
-D system.ads		20190214095141 811ff877 system%s
-D s-unstyp.ads		20190214095141 9d58a4c0 system.unsigned_types%s
+D ada_exceptions.ads	00000000000000 edfdf842 ada_exceptions%s
+D platform.ads		00000000000000 9fb468df platform%s
+D platform.adb		00000000000000 dd676415 platform%b
+D system.ads		00000000000000 811ff877 system%s
+D s-unstyp.ads		00000000000000 9d58a4c0 system.unsigned_types%s
 X 1 ada_exceptions.ads
 3K9*Ada_Exceptions 88e19 2|11w6 53r42 81r40 3|30r42
 6E9*Exception_Type 45e5 2|53r57 81r55 3|30r57

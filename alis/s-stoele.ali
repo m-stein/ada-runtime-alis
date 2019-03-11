@@ -17,11 +17,11 @@ W system%s		system.ads		system.ali
 U system.storage_elements%s  s-stoele.ads	acdcb273 BN NE OL PU PK
 W system%s		system.ads		system.ali
 
-D ada.ads		20190214095141 3ffc8e18 ada%s
-D a-unccon.ads		20190214095141 f9eb8f06 ada.unchecked_conversion%s
-D system.ads		20190214095141 811ff877 system%s
-D s-stoele.ads		20190214095141 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20190214095141 ed88f8fb system.storage_elements%b
+D ada.ads		00000000000000 3ffc8e18 ada%s
+D a-unccon.ads		00000000000000 f9eb8f06 ada.unchecked_conversion%s
+D system.ads		00000000000000 811ff877 system%s
+D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
+D s-stoele.adb		00000000000000 ed88f8fb system.storage_elements%b
 X 1 ada.ads
 16K9*Ada 19e8 5|34r6 46r10 48r10
 X 2 a-unccon.ads

@@ -11,9 +11,9 @@ W system%s		system.ads		system.ali
 U system.parameters%s	s-parame.ads		03aeee97 EB NE OL PU PK
 W system%s		system.ads		system.ali
 
-D system.ads		20190214095141 811ff877 system%s
-D s-parame.ads		20190214095141 82b116e0 system.parameters%s
-D s-parame.adb		20190214095141 df5e9ff0 system.parameters%b
+D system.ads		00000000000000 811ff877 system%s
+D s-parame.ads		00000000000000 82b116e0 system.parameters%s
+D s-parame.adb		00000000000000 df5e9ff0 system.parameters%b
 X 1 system.ads
 47K9*System 178e11 2|10r9 38r25 44r5 3|1r14 7r5
 77M9*Address 2|38r32

@@ -12,9 +12,9 @@ W system%s		system.ads		system.ali
 U system.img_int%s	s-imgint.ads		83c418b5 NE OL PU PK
 W system%s		system.ads		system.ali
 
-D system.ads		20190214095141 811ff877 system%s
-D s-imgint.ads		20190214095141 02dbe0c2 system.img_int%s
-D s-imgint.adb		20190214095141 55d8c50a system.img_int%b
+D system.ads		00000000000000 811ff877 system%s
+D s-imgint.ads		00000000000000 02dbe0c2 system.img_int%s
+D s-imgint.adb		00000000000000 55d8c50a system.img_int%b
 X 1 system.ads
 47K9*System 178e11 2|36r9 57r5 3|32r14 98r5
 X 2 s-imgint.ads

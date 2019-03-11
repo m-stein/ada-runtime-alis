@@ -20,15 +20,15 @@ W ada.unchecked_conversion%s
 W system%s		system.ads		system.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
-D ada.ads		20190214095141 3ffc8e18 ada%s
-D a-unccon.ads		20190214095141 f9eb8f06 ada.unchecked_conversion%s
-D ss_utils.ads		20190214095141 f7bf9251 ss_utils%s
-D system.ads		20190214095141 811ff877 system%s
-D s-parame.ads		20190214095141 82b116e0 system.parameters%s
-D s-secsta.ads		20190214095141 416b2b4a system.secondary_stack%s
-D s-stalib.ads		20190214095141 f911792b system.standard_library%s
-D s-stalib.adb		20190214095141 c89ce2a4 system.standard_library%b
-D s-stoele.ads		20190214095141 2dc34a04 system.storage_elements%s
+D ada.ads		00000000000000 3ffc8e18 ada%s
+D a-unccon.ads		00000000000000 f9eb8f06 ada.unchecked_conversion%s
+D ss_utils.ads		00000000000000 f7bf9251 ss_utils%s
+D system.ads		00000000000000 811ff877 system%s
+D s-parame.ads		00000000000000 82b116e0 system.parameters%s
+D s-secsta.ads		00000000000000 416b2b4a system.secondary_stack%s
+D s-stalib.ads		00000000000000 f911792b system.standard_library%s
+D s-stalib.adb		00000000000000 c89ce2a4 system.standard_library%b
+D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
 X 1 ada.ads
 16K9*Ada 19e8 7|11r6 32r10
 X 2 a-unccon.ads

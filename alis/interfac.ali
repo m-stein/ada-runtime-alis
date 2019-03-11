@@ -9,8 +9,8 @@ RV SPARK_05
 
 U interfaces%s		interfac.ads		4be8ce1b NE OL PU PK
 
-D interfac.ads		20190214095141 4be8ce1b interfaces%s
-D system.ads		20190214095141 811ff877 system%s
+D interfac.ads		00000000000000 4be8ce1b interfaces%s
+D system.ads		00000000000000 811ff877 system%s
 X 1 interfac.ads
 38K9*Interfaces 183l5 183e15
 45I9*Integer_8<short_short_integer> 46r8

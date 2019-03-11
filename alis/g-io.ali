@@ -12,10 +12,10 @@ W gnat%s		gnat.ads		gnat.ali
 U gnat.io%s		g-io.ads		6227e843 BN NE OL PR PK
 W gnat%s		gnat.ads		gnat.ali
 
-D gnat.ads		20190214095141 fd2ad2f1 gnat%s
-D g-io.ads		20190214095141 9f0d3ab2 gnat.io%s
-D g-io.adb		20190214095141 2b8c3847 gnat.io%b
-D system.ads		20190214095141 811ff877 system%s
+D gnat.ads		00000000000000 fd2ad2f1 gnat%s
+D g-io.ads		00000000000000 9f0d3ab2 gnat.io%s
+D g-io.adb		00000000000000 2b8c3847 gnat.io%b
+D system.ads		00000000000000 811ff877 system%s
 X 1 gnat.ads
 34K9*GNAT 37e9 2|41r9 91r5 3|32r14 191r5
 X 2 g-io.ads
