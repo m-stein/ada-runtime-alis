@@ -1,0 +1,62 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U interfaces.c%b	i-c.adb			90197321 NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+
+U interfaces.c%s	i-c.ads			6e253a8e EB NE OL PU PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+
+D interfac.ads		00000000000000 5ab55268 interfaces%s
+D i-c.ads		00000000000000 b6217e06 interfaces.c%s
+D i-c.adb		00000000000000 26380d27 interfaces.c%b
+D system.ads		00000000000000 b7b1312c system%s
+D s-parame.ads		00000000000000 82b116e0 system.parameters%s
+X 1 interfac.ads
+38K9*Interfaces 184e15 2|18r9 113r5 3|1r14 7r5
+X 2 i-c.ads
+18K20*C 1|38k9 2|113l16 113e17 3|1b25 7l16 7t17
+24N4*CHAR_BIT 42r29 49r31 78r38
+25N4*SCHAR_MIN 41r30
+26N4*SCHAR_MAX 41r43
+27N4*UCHAR_MAX 48r31
+36I9*int<integer> 44r36
+37I9*short<short_integer> 45r36
+38I9*long<long_integer> 46r36
+41I9*signed_char<short_short_integer> 42r8
+44M9*unsigned
+45M9*unsigned_short
+46M9*unsigned_long
+48M9*unsigned_char 49r8 51r26
+51M12*plain_char{48M9}
+57I9*ptrdiff_t<long_integer>
+61M9*size_t 77r30 89r31 101r32 110r32
+65F9*C_float<float>
+66F9*double<long_float>
+67F9*long_double<long_long_float>
+73E9*char<character> 75r19 75r27 77r58
+75e4*nul{73E9}
+77A9*char_array(73E9)<61M9> 78r8
+84E9*wchar_t<wide_character> 85r8 87r24 87r35 89r59
+87e4*wide_nul{84E9}
+89A9*wchar_array(84E9)<61M9>
+95E9*char16_t<wide_character> 96r19 98r26 98r38 101r60
+98e4*char16_nul{95E9} 99r19
+101A9*char16_array(95E9)<61M9> 102r19
+104E9*char32_t<wide_wide_character> 105r19 107r26 107r38 110r60
+107e4*char32_nul{104E9} 108r19
+110A9*char32_array(104E9)<61M9> 111r19
+X 4 system.ads
+53K9*System 2|16r6 38r32 39r17 58r20 59r20 61r28 4|184e11
+X 5 s-parame.ads
+10K16*Parameters 2|16w13 38r39 39r24 58r27 59r27 61r35 5|44e22
+32N4*long_bits 2|38r50 39r35
+37N4*ptr_bits 2|58r38 59r38 61r46
+

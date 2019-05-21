@@ -1,78 +1,81 @@
-V "GNAT Lib v6"
-P SS FX
+V "GNAT Lib v8"
+P SS ZX
 
 RN
 RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_SECONDARY_STACK
-RV NO_STANDARD_STORAGE_POOLS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U string_utils%b	string_utils.adb	fffb94e4 NE OO PK
-W system%s		system.ads		system.ali
-W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+U string_utils%b	string_utils.adb	a202ebd5 NE OO PK
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
-U string_utils%s	string_utils.ads	fe64804b NE OO PR PK
+U string_utils%s	string_utils.ads	cac4a7ec BN NE OO PR PK
 W system%s		system.ads		system.ali
 W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+N A27:4 gnatprove terminating length
+N A38:4 gnatprove terminating convert_to_ada
+N A53:4 gnatprove terminating get_char
+N A58:4 gnatprove terminating incr
+N A65:4 gnatprove terminating to_address
+N A72:4 gnatprove terminating to_pointer
 
-D ada.ads		00000000000000 3ffc8e18 ada%s
-D a-unccon.ads		00000000000000 f9eb8f06 ada.unchecked_conversion%s
-D ss_utils.ads		00000000000000 f7bf9251 ss_utils%s
-D string_utils.ads	00000000000000 52b83238 string_utils%s
-D string_utils.adb	00000000000000 ad43a6dc string_utils%b
-D system.ads		00000000000000 811ff877 system%s
+D ada.ads		00000000000000 76789da1 ada%s
+D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
+D ss_utils.ads		00000000000000 ccfc9289 ss_utils%s
+D string_utils.ads	00000000000000 50b6dcc4 string_utils%s
+D string_utils.adb	00000000000000 f2b43711 string_utils%b
+D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
-D s-secsta.ads		00000000000000 416b2b4a system.secondary_stack%s
+D s-secsta.ads		00000000000000 72d62074 system.secondary_stack%s
 D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
 D s-stoele.adb		00000000000000 ed88f8fb system.storage_elements%b
 X 4 string_utils.ads
-15K9*String_Utils 35E12 62l5 62e17 5|10b14 122l5 122t17
-20V13*Length{integer} 20>21 21>21 23r16 25r43 26r43 5|18b13 41l8 41t14 51s31
-20m21 C_Str{6|77M9} 25r11 26r11 5|18b21 22r36
-21i21 Max_Length{natural} 23r33 5|19b21 28r50
-28V13*Convert_To_Ada{string} 28>29 29>29 30>29 5|47b13 71l8 71t22
-28m29 C_Str{6|77M9} 5|47b29 51r39 53r39
-29a29 Default{string} 5|48b29 69r17
-30i29 Max_Length{natural} 5|49b29 51r46
-35K12 SSE=35:31 37r23 5|108r14 119r14
-37M12 Pointer{9|105M9} 39r28 41r29 45r25 45r41 50r33 56r55 5|22r13 23r17
-. 53r16 54r20 77r29 90r25 90r41 92r14 104r33 115r55
-39m4 Null_Pointer{37M12} 43r22 47r22 48r31 53r19 54r20 59r61 60r63 5|26r17
-. 29r43 58r46 94r17
-41V13 Get_Char{character} 41>23 5|27s18 36s21 61s24 77b13 84l8 84t16
-41m23 Ptr{37M12} 43r15 5|77b23 81r37
-45V13 Incr{37M12} 45>19 48r16 5|32s20 62s23 90b13 98l8 98t12
-45m19 Ptr{37M12} 47r15 5|90b19 92r25 95r18
-50V13 To_Address{6|77M9} 50>25 53r35 54r36 5|81s25 104b13 109l8 109t18
-50m25 Value{37M12} 53r11 54r11 5|104b25 108r30
-56V13 To_Pointer{37M12} 56>25 59r41 60r42 5|22s24 53s27 115b13 120l8 120t18
-56m25 Addr{6|77M9} 59r11 60r11 5|115b25 119r30
+15K9*String_Utils 42E12 74l5 74e17 5|10b14 117l5 117t17
+21V13*Length{integer} 21>21 22>21 23r15 25r43 26r43 27r45 5|18b13 45l8 45t14
+. 55s36
+21m21 C_Str{6|83M9} 25r11 26r11 5|18b21 26r22 27r26 29r29
+22i21 Max_Length{natural} 23r32 5|19b21 33r16
+29V13*Convert_To_Ada{string} 29>29 30>29 31>29 34r42 36r14 37r17 38r45 5|51b13
+. 70l8 70t22
+29m29 C_Str{6|83M9} 34r11 35r11 5|51b29 55r44 60r32
+30a29 Default{string} 34r66 37r41 5|52b29 68r17
+31i29 Max_Length{natural} 36r46 5|53b29 55r51
+42K12 SSE=42:31 44r23 5|103r14 114r14
+44M12 Pointer{9|105M9} 46r28 48r29 56r20 60r33 67r55 5|27r35 34r22 35r18
+. 63r32 99r33 110r55
+46m4 Null_Pointer{44M12} 50r45 63r19 64r20 70r62 71r63 5|26r32
+48M12 Valid_Pointer{44M12} 52r29 55r25 55r47 5|22r14 57r16 76r29 89r25 89r47
+52V13 Get_Char{character} 52>23 53r45 5|30s18 40s21 62s24 76b13 83l8 83t16
+52m23 Ptr{48M12} 5|76b23 80r37
+55V13 Incr{48M12} 55>19 57r15 58r45 5|39s20 64s23 89b13 93l8 93t12
+55m19 Ptr{48M12} 56r14 57r29 5|89b19 92r14
+60V13 To_Address{6|83M9} 60>25 63r36 64r36 65r45 5|80s25 99b13 104l8 104t18
+60m25 Value{44M12} 63r11 64r11 5|99b25 103r30
+67V13 To_Pointer{44M12} 67>25 70r42 71r42 72r45 5|26s10 27s14 29s17 60s20
+. 110b13 115l8 115t18
+67m25 Addr{6|83M9} 70r11 71r11 5|110b25 114r30
 X 5 string_utils.adb
-21i7 L{integer} 28r46 29r60 37m13 37r18 40r14
-22m7 Ptr{4|37M12} 23r28 26r10 27r28 29r36 30r47 31r28 32m13 32r26 33r34 34r28
-. 35r24 36r31
-23m7 Old_Ptr{4|37M12} 31r34 33r23 34r34 35m13
-24e7 Char{character} 27m10 28r16 36m13
-51i7 L{integer} 52r26 56r10
-52a7 Str{string} 57r19 61m13 67r17
-53m7 Cursor{4|37M12} 54r31 58r36 59r47 60r28 61r34 62m13 62r29 63r37 64r28
-. 65r27
-54m7 Old_Cursor{4|37M12} 60r37 63r23 64r37 65m13
-57i14 C{integer} 61r18
-80e7 Char{character} 83r14
-92m7 Next{4|37M12} 94r10 95m10 97r14
+21i7 L{integer} 33r12 37r36 38r47 41m13 41r18 44r14
+22m7 Ptr{4|48M12} 29m10 30r28 34r12 35r12 39m13 39r26 40r31
+23e7 Char{character} 30m10 32r12 40m13
+55i7 L{integer} 56r29 59r10
+56a7 Str{string} 61r19 62m13 66r17
+57m7 Cursor{4|48M12} 60m10 62r34 63r23 64m13 64r29
+61i14 C{integer} 62r18
+79e7 Char{character} 82r14
 X 6 system.ads
-47K9*System 4|10w6 11r6 12r14 13r14 20r34 25r19 26r20 28r42 35r24 50r49 53r55
-. 54r57 56r32 59r18 60r19 5|18r34 47r42 104r49 115r32 6|178e11
-77M9*Address 4|12r21 20r41 28r49 50r56 56r39 5|18r41 47r49 104r56 115r39
-82m4*Null_Address{77M9} 4|25r26 26r27 53r62 54r64 59r25 60r26
-94V14*"="{boolean} 4|25r17 26r17 53r53 54r54 59r16 60r16
+53K9*System 4|10w6 11r6 12r14 13r14 21r34 25r19 26r20 29r42 34r19 35r20 42r24
+. 60r49 63r56 64r57 67r32 70r18 71r19 5|18r34 51r42 99r49 110r32 6|184e11
+83M9*Address 4|12r21 21r41 29r49 60r56 67r39 5|18r41 51r49 99r56 110r39
+88m4*Null_Address{83M9} 4|25r26 26r27 34r26 35r27 63r63 64r64 70r25 71r26
+100V14*"="{boolean} 4|25r17 26r17 34r17 35r17 63r54 64r54 70r16 71r16
 X 9 s-stoele.ads
-42K16*Storage_Elements 4|11w13 13r21 35r31 9|117e28
-105M9*Integer_Address 4|13r38 37r27
-107V13*To_Address{6|77M9} 5|108s18
-112V13*To_Integer{105M9} 5|119s18
+42K16*Storage_Elements 4|11w13 13r21 42r31 9|117e28
+105M9*Integer_Address 4|13r38 44r27
+107V13*To_Address{6|83M9} 5|103s18
+112V13*To_Integer{105M9} 5|114s18
 

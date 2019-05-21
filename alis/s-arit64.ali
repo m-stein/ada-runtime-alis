@@ -1,5 +1,5 @@
-V "GNAT Lib v6"
-P SS FX
+V "GNAT Lib v8"
+P SS ZX
 
 RN
 RV NO_EXCEPTIONS
@@ -9,46 +9,46 @@ RV NO_IMPLEMENTATION_RESTRICTIONS
 RR NO_ELABORATION_CODE
 RV SPARK_05
 
-U system.arith_64%b	s-arit64.adb		1d7754d3 NE OL PK
+U system.arith_64%b	s-arit64.adb		fb5a60c9 NE OL PK
 W ada%s			ada.ads			ada.ali
-W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.unchecked_conversion%s
 W interfaces%s		interfac.ads		interfac.ali
 W system%s		system.ads		system.ali
 
-U system.arith_64%s	s-arit64.ads		8aba939e NE OL PU PK
+U system.arith_64%s	s-arit64.ads		ad49c6b6 NE OL PU PK
 W interfaces%s		interfac.ads		interfac.ali
 W system%s		system.ads		system.ali
 
-D ada.ads		00000000000000 3ffc8e18 ada%s
+D ada.ads		00000000000000 76789da1 ada%s
 D a-except.ads		00000000000000 387ac0a1 ada.exceptions%s
-D a-unccon.ads		00000000000000 f9eb8f06 ada.unchecked_conversion%s
-D interfac.ads		00000000000000 4be8ce1b interfaces%s
-D ss_utils.ads		00000000000000 f7bf9251 ss_utils%s
-D system.ads		00000000000000 811ff877 system%s
+D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		00000000000000 5ab55268 interfaces%s
+D ss_utils.ads		00000000000000 ccfc9289 ss_utils%s
+D system.ads		00000000000000 b7b1312c system%s
 D s-arit64.ads		00000000000000 404da5f2 system.arith_64%s
 D s-arit64.adb		00000000000000 ef39b03c system.arith_64%b
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
-D s-secsta.ads		00000000000000 416b2b4a system.secondary_stack%s
+D s-secsta.ads		00000000000000 72d62074 system.secondary_stack%s
 D s-stalib.ads		00000000000000 f911792b system.standard_library%s
 D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
 X 1 ada.ads
-16K9*Ada 19e8 8|34r6 42r27 43r27
+16K9*Ada 20e8 8|34r6 42r27 43r27
 X 3 a-unccon.ads
 20v14*Unchecked_Conversion 8|34w10 42r31 43r31
 X 4 interfac.ads
-38K9*Interfaces 183e15 7|39w6 44r21 8|32w6 32r22
-54I9*Integer_64<long_long_integer> 7|44r32
-73M9*Unsigned_32 8|45r21
-76M9*Unsigned_64 8|41r21
-140V13*Shift_Left{76M9} 8|62s7 421s19 426s19 431s19 436s19 441s19 451s16
+38K9*Interfaces 184e15 7|39w6 44r21 8|32w6 32r22
+55I9*Integer_64<long_long_integer> 7|44r32
+74M9*Unsigned_32 8|45r21
+77M9*Unsigned_64 8|41r21
+141V13*Shift_Left{77M9} 8|62s7 421s19 426s19 431s19 436s19 441s19 451s16
 . 453s16 455s16
-144V13*Shift_Right{76M9} 8|79s52 503s16 504s16
+145V13*Shift_Right{77M9} 8|79s52 503s16 504s16
 X 6 system.ads
-47K9*System 178e11 7|41r9 84r5 8|36r14 605r5
+53K9*System 184e11 7|41r9 84r5 8|36r14 605r5
 X 7 s-arit64.ads
-41K16*Arith_64 6|47k9 7|84l12 84e20 8|36b21 605l12 605t20
-44I12*Int64{4|54I9} 46r42 46r56 50r47 50r61 54r47 54r61 61r17 62r21 73r17
+41K16*Arith_64 6|53k9 7|84l12 84e20 8|36b21 605l12 605t20
+44I12*Int64{4|55I9} 46r42 46r56 50r47 50r61 54r47 54r61 61r17 62r21 73r17
 . 74r21 8|42r53 43r60 65r24 66r14 66r49 85r43 91r43 104r42 104r56 105r20
 . 127r17 128r21 184r14 236r47 236r61 304r17 305r21 557r47 557r61 558r20 579r43
 . 580r20 580r48 595r43 596r20
@@ -77,15 +77,15 @@ X 7 s-arit64.ads
 74i10 R{44I12} 8|128b10 157m13 172m10 202m10 208m10
 75b7 Round{boolean} 8|129b7 195r10
 X 8 s-arit64.adb
-41M12 Uns64{4|76M9} 42r60 43r53 51r39 51r49 51r61 52r22 52r47 52r61 55r39
+41M12 Uns64{4|77M9} 42r60 43r53 51r39 51r49 51r61 52r22 52r47 52r61 55r39
 . 55r49 55r61 58r22 58r47 58r61 61r41 62r19 62r38 65r38 66r42 70r24 70r49
 . 70r65 76r21 79r21 85r29 91r29 131r22 132r22 137r22 141r20 142r20 195r36
 . 195r49 196r21 237r22 241r22 245r16 308r22 312r22 316r13 329r12 330r12 339r20
 . 364r37 509r36 509r49 510r21 579r29 595r29
-42V13 To_Uns[3|20]{4|76M9} 105s37 105s50 558s37 558s50
-43V13 To_Int[3|20]{4|54I9} 105s29 202s15 203s32 203s50 208s16 209s33 209s50
+42V13 To_Uns[3|20]{4|77M9} 105s37 105s50 558s37 558s50
+43V13 To_Int[3|20]{4|55I9} 105s29 202s15 203s32 203s50 208s16 209s33 209s50
 . 558s29 580s66 596s29
-45M12 Uns32{4|73M9} 51r25 52r33 55r25 58r33 61r27 70r35 73r31 73r51 76r35
+45M12 Uns32{4|74M9} 51r25 52r33 55r25 58r33 61r27 70r35 73r31 73r51 76r35
 . 76r45 79r35 79r45 82r40 82r60 134r22 135r22 138r22 139r22 217r31 217r51
 . 238r22 239r22 242r22 243r22 309r22 310r22 313r22 314r22 317r13 318r13 320r29
 . 323r30 326r20 533r40 533r60
