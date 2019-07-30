@@ -7,54 +7,59 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U system.soft_links%b	s-soflin.adb		ce75e51b NE OL PK
-W platform%s		platform.adb		platform.ali
+U system.soft_links%b	s-soflin.adb		daa8851f NE OL PK
+W componolit%s		componolit.ads		componolit.ali
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+W componolit.runtime.debug%s  componolit-runtime-debug.adb  componolit-runtime-debug.ali
 W system%s		system.ads		system.ali
 
-U system.soft_links%s	s-soflin.ads		717beaee BN NE OL PR PK
+U system.soft_links%s	s-soflin.ads		d84a63c7 BN NE OL PR PK
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W system%s		system.ads		system.ali
 
 D ada.ads		00000000000000 76789da1 ada%s
-D a-except.ads		00000000000000 387ac0a1 ada.exceptions%s
+D a-except.ads		00000000000000 c61a6581 ada.exceptions%s
 D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
-D ada_exceptions.ads	00000000000000 edfdf842 ada_exceptions%s
-D platform.ads		00000000000000 9fb468df platform%s
-D ss_utils.ads		00000000000000 ccfc9289 ss_utils%s
+D componolit.ads	00000000000000 9058e662 componolit%s
+D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
+D componolit-runtime-debug.ads  00000000000000 3101b889 componolit.runtime.debug%s
 D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
-D s-secsta.ads		00000000000000 72d62074 system.secondary_stack%s
-D s-soflin.ads		00000000000000 feb01b63 system.soft_links%s
-D s-soflin.adb		00000000000000 af7196a7 system.soft_links%b
-D s-stalib.ads		00000000000000 f911792b system.standard_library%s
-D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
-D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
+D s-soflin.ads		00000000000000 a9e1376a system.soft_links%s
+D s-soflin.adb		00000000000000 42480afc system.soft_links%b
+D s-stalib.ads		00000000000000 44e4cbec system.standard_library%s
+D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
 X 1 ada.ads
-16K9*Ada 20e8 10|10r6 15r19 24r39 11|20r39 23r14
+16K9*Ada 20e8 10|10r6 20r19 29r39 11|23r39 27r14
 X 2 a-except.ads
-15K13*Exceptions 58e19 10|10w10 15r23 24r43 11|20r43 23r18
-22P9*Exception_Id<12|35P9> 10|24r54 11|20r54
-24P9*Exception_Occurrence_Access(23R9) 10|15r34
-26p4*Null_Exception_Id{22P9} 11|23r29
-X 5 platform.ads
-13K9*Platform 89e13 11|10w6 16r7 22r7
-19U14*Log_Warning 11|16s16 22s16
+15K13*Exceptions 62e19 10|10w10 20r23 29r43 11|23r43 27r18
+26P9*Exception_Id<12|39P9> 10|29r54 11|23r54
+28P9*Exception_Occurrence_Access(27R9) 10|20r34
+30p4*Null_Exception_Id{26P9} 11|27r29
+X 4 componolit.ads
+10K9*Componolit 15e15 11|10r6 18r7 25r7
+X 5 componolit-runtime.ads
+10K20*Runtime 15e23 11|10r17 18r18 25r18
+X 6 componolit-runtime-debug.ads
+12K28*Debug 46e29 11|10w25 18r26 25r26
+19U14*Log_Warning 11|18s32 25s32
 X 7 system.ads
-53K9*System 184e11 10|12r9 40r5 11|12r14 37r5
-83M9*Address 10|26r44 27r46 11|26r44 28r14 31r46
+63K9*System 194e11 10|12r9 45r5 11|12r14 41r5
+93M9*Address 10|31r44 32r46 11|30r44 32r14 35r46
 X 10 s-soflin.ads
-12K16*Soft_Links 7|53k9 10|40l12 40e22 11|12b21 37l12 37t22
-15P12*EOA{2|24P9} 17r53 20r41 11|14r41
-17P9*Get_EOA_Call(2|24P9) 18r28 22r24
-20V13*Get_Current_Excep_NT{15P12} 22r40 11|14b13 18l8 18t28
-22p4*Get_Current_Excep{17P9}
-24V13*Get_GNAT_Exception{2|22P9} 11|20b13 24l8 24t26
-26V13*Get_Jmpbuf_Address_Soft{7|83M9} 28r19 11|26b13 29l8 29t31
-27U14*Set_Jmpbuf_Address_Soft 27>39 29r19 11|31b14 35l8 35t31
-27m39 Addr{7|83M9} 11|31b39 32r28
-31P9*No_Param_Proc 32r28 33r36 35r31
-35p4*Finalize_Library_Objects{31P9}
+12K16*Soft_Links 7|63k9 10|45l12 45e22 11|12b21 41l12 41t22
+20P12*EOA{2|28P9} 22r53 25r41 11|16r41
+22P9*Get_EOA_Call(2|28P9) 23r28 27r24
+25V13*Get_Current_Excep_NT{20P12} 27r40 11|16b13 21l8 21t28
+27p4*Get_Current_Excep{22P9}
+29V13*Get_GNAT_Exception{2|26P9} 11|23b13 28l8 28t26
+31V13*Get_Jmpbuf_Address_Soft{7|93M9} 33r19 11|30b13 33l8 33t31
+32U14*Set_Jmpbuf_Address_Soft 32>39 34r19 11|35b14 39l8 39t31
+32m39 Addr{7|93M9} 11|35b39 36r28
+36P9*No_Param_Proc 37r28 38r36 40r31
+40p4*Finalize_Library_Objects{36P9}
 X 12 s-stalib.ads
-35P9*Exception_Data_Ptr(34R9)
+39P9*Exception_Data_Ptr(38R9)
 

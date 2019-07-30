@@ -10,10 +10,10 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U system.standard_library%b  s-stalib.adb	318d9b8f NE OL PK
+U system.standard_library%b  s-stalib.adb	555faa06 NE OL PK
 W system%s		system.ads		system.ali
 
-U system.standard_library%s  s-stalib.ads	403b6f68 EB NE OL PR PK
+U system.standard_library%s  s-stalib.ads	fdceddaf EB NE OL PR PK
 W ada%s			ada.ads			ada.ali
 W ada.unchecked_conversion%s
 W system%s		system.ads		system.ali
@@ -21,40 +21,39 @@ Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
 D ada.ads		00000000000000 76789da1 ada%s
 D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
-D ss_utils.ads		00000000000000 ccfc9289 ss_utils%s
 D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
-D s-secsta.ads		00000000000000 72d62074 system.secondary_stack%s
-D s-stalib.ads		00000000000000 f911792b system.standard_library%s
-D s-stalib.adb		00000000000000 c89ce2a4 system.standard_library%b
-D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
+D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
+D s-stalib.ads		00000000000000 44e4cbec system.standard_library%s
+D s-stalib.adb		00000000000000 11bb61ea system.standard_library%b
+D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
 X 1 ada.ads
-16K9*Ada 20e8 7|11r6 32r10
+16K9*Ada 20e8 6|11r6 36r10
 X 2 a-unccon.ads
-20v14*Unchecked_Conversion 7|11w10 32r14
-X 4 system.ads
-53K9*System 184e11 7|13r9 32r36 42r31 44r31 68r5 8|1r14 7r5
-83M9*Address 7|32r43 42r38 44r38
-88m4*Null_Address{83M9} 7|55r32
-X 7 s-stalib.ads
-13K16*Standard_Library 4|53k9 7|68l12 68e28 8|1b21 7l12 7t28
-17A12*Big_String{string}<integer> 18r36 24r38
-24P9*Big_String_Ptr(17A12) 25r8 32r52
-31V13*To_Ptr[2|20]{24P9}
-34R9*Exception_Data 35r42 38c9 46e14 49r35
-35P9*Exception_Data_Ptr(34R9) 43r31
-36P9*Raise_Action 45r31
-38R9*Exception_Data
-39b7*Not_Handled_By_Others{boolean} 50m7
-40e7*Lang{character} 51m7
-41i7*Name_Length{natural} 52m7
-42m7*Full_Name{4|83M9} 53m7
-43p7*HTable_Ptr{35P9} 54m7
-44m7*Foreign_Data{4|83M9} 55m7
-45p7*Raise_Hook{36P9} 56m7
-48a4*Constraint_Error_Name{string} 52r32 53r32
-49r4*Constraint_Error_Def{38R9} 57m22 57r22
-59U14*Adafinal
-66V13*Dummy{string} 66>20
-66a20 S{string} 66r50
+20v14*Unchecked_Conversion 6|11w10 36r14
+X 3 system.ads
+63K9*System 194e11 6|13r9 36r36 46r31 48r31 72r5 7|10r14 17r5
+93M9*Address 6|36r43 46r38 48r38
+98m4*Null_Address{93M9} 6|59r32
+X 6 s-stalib.ads
+13K16*Standard_Library 3|63k9 6|72l12 72e28 7|10b21 17l12 17t28
+21A12*Big_String{string}<integer> 22r36 28r38
+28P9*Big_String_Ptr(21A12) 29r8 36r52
+35V13*To_Ptr[2|20]{28P9}
+38R9*Exception_Data 39r42 42c9 50e14 53r35
+39P9*Exception_Data_Ptr(38R9) 47r31
+40P9*Raise_Action 49r31
+42R9*Exception_Data
+43b7*Not_Handled_By_Others{boolean} 54m7
+44e7*Lang{character} 55m7
+45i7*Name_Length{natural} 56m7
+46m7*Full_Name{3|93M9} 57m7
+47p7*HTable_Ptr{39P9} 58m7
+48m7*Foreign_Data{3|93M9} 59m7
+49p7*Raise_Hook{40P9} 60m7
+52a4*Constraint_Error_Name{string} 56r32 57r32
+53r4*Constraint_Error_Def{42R9} 61m22 61r22
+63U14*Adafinal
+70V13*Dummy{string} 70>20
+70a20 S{string} 70r50
 

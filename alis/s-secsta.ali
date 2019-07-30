@@ -2,65 +2,94 @@ V "GNAT Lib v8"
 P ZX
 
 RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U system.secondary_stack%b  s-secsta.adb	5306090b NE OL PK
+U system.secondary_stack%b  s-secsta.adb	66f9f55f OL PK
+W componolit%s		componolit.ads		componolit.ali
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+W componolit.runtime.platform%s  componolit-runtime-platform.adb  componolit-runtime-platform.ali
 W system%s		system.ads		system.ali
 
-U system.secondary_stack%s  s-secsta.ads	a6e9df35 NE OL PK
-W ss_utils%s		ss_utils.adb		ss_utils.ali
+U system.secondary_stack%s  s-secsta.ads	e5d59dc6 EE NE OL PK
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.storage_elements%s  s-stoele.adb	s-stoele.ali
 
-D ss_utils.ads		00000000000000 ccfc9289 ss_utils%s
+D ada.ads		00000000000000 76789da1 ada%s
+D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
+D componolit.ads	00000000000000 9058e662 componolit%s
+D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
+D componolit-runtime-exceptions.ads  00000000000000 e89c7e41 componolit.runtime.exceptions%s
+D componolit-runtime-platform.ads  00000000000000 4e550367 componolit.runtime.platform%s
 D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
-D s-secsta.ads		00000000000000 72d62074 system.secondary_stack%s
-D s-secsta.adb		00000000000000 21d0297f system.secondary_stack%b
-D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
-X 1 ss_utils.ads
-13K9*Ss_Utils 71e13 4|12w6 50r17 50r34 5|16r7 23r7 30r7
-20R9*Mark 23e14 4|50r26
-26r4*Null_Mark{20R9} 4|50r43
-38U14*S_Allocate 5|16s16
-48U14*S_Mark 5|23s16
-55U14*S_Release 5|30s16
-X 2 system.ads
-53K9*System 184e11 4|10r6 11r6 14r9 16r23 17r24 52r5 5|10r14 33r5
-X 3 s-parame.ads
-10K16*Parameters 44e22 4|10w13 16r30
-18I9*Task_Storage_Size<integer>
-21I9*Size_Type<18I9> 4|19r29 34r25 39r29
-X 4 s-secsta.ads
-14K16*Secondary_Stack 2|53k9 4|32E4 52l12 52e27 5|10b21 33l12 33t27
-16K12*SP=16:30 19r26 34r22 39r26
-17K12*SSE=17:31 23r46 24r46 36r46 46r14 47r14 5|12r46 13r46 23r44 30r47
-19R9*SS_Stack 19d19 39c9 43e14
-19i19 Size{3|21I9} 39r19 42r37
-21R9*Mark_Id 26r28 28r30 45c9 48e14 5|19r28 21r11 27r30
-23U14*SS_Allocate 23<27 24>27 5|12b14 17l8 17t19
-23m27 Address{6|105M9} 5|12b27 16m40
-24i27 Storage_Size{6|62I12} 5|13b27 16r49
-26V13*SS_Mark{21R9} 5|19b13 25l8 25t15
-28U14*SS_Release 28>26 5|27b14 31l8 31t18
-28r26 M{21R9} 5|27b26 30r39 30r66
-32i4 SS_Pool{integer}
-34I12 SS_Ptr{3|21I9} 36r26 40r13 41r13
-36A9 Memory(6|64M9)<3|21I9> 37r8 42r24
-40i7*Top{34I12}
-41i7*Max{34I12}
-42a7*Internal_Chunk{36A9}
-46m7*Sstk{6|105M9} 5|23m38 30r41
-47m7*Sptr{6|105M9} 5|23m65 30r68
-50r4 Stack_Mark{1|20R9} 5|16m28 16r28 23m24 23r24 30m27 30r27
-X 5 s-secsta.adb
-21r7 M{4|21R9} 23m36 23r36 23m63 23r63 24r14
-X 6 s-stoele.ads
-42K16*Storage_Elements 4|11w13 17r31 6|117e28
-54I9*Storage_Offset<long_integer>
-62I12*Storage_Count{54I9} 4|24r50 5|13r50 23r48 30r51
-64M9*Storage_Element 4|36r50
-105M9*Integer_Address 4|23r50 46r18 47r18 5|12r50
+D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
+D s-secsta.adb		00000000000000 5169e5c5 system.secondary_stack%b
+D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
+D s-stoele.adb		00000000000000 d3f03793 system.storage_elements%b
+D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+X 3 componolit.ads
+10K9*Componolit 15e15 10|10r6 29r10 46r10 58r7
+X 4 componolit-runtime.ads
+10K20*Runtime 15e23 10|10r17 29r21 46r21 58r18
+X 6 componolit-runtime-platform.ads
+13K28*Platform 42e32 10|10w25 29r29 46r29 58r26
+23U14*Terminate_Message 10|29s38 46s38 58s35
+X 7 system.ads
+63K9*System 194e11 9|10r6 11r6 13r9 19r23 20r24 117r25 158r5 10|12r14 61r5
+93M9*Address 9|117r32
+X 8 s-parame.ads
+10K16*Parameters 46e22 9|10w13 19r30
+20I9*Task_Storage_Size<integer>
+23I9*Size_Type<20I9> 9|22r29 86r25 91r29
+X 9 s-secsta.ads
+13K16*Secondary_Stack 7|63k9 9|83E4 158l12 158e27 10|12b21 61l12 61t27
+15@23*Stack_State 16r23 33r28 34r41 43r28 44r52 47r29 49r26 53r28 55r26 62r29
+. 63r19 64r35 70r28 71r37 78r29 79r19 125r18 10|14r22
+15@36*Binder_State 16r36 47r42 49r39 61r29 65r34 84r18 109r24 115r24 121r24
+. 10|15r22
+19K12*SP=19:30 22r26 86r22 91r26
+20K12*SSE=20:31 26r32 46r41 57r46 58r46 88r46 96r14 97r14 101r14 102r14 127r13
+. 128r13 130r32 142r41 144r20 145r21 146r33 147r17 155r17 156r17 10|21r46
+. 22r46 27r36 38r31 44r10 49r20 55r10 56r12
+22R9*SS_Stack 22d19 91c9 93e14
+22i19 Size{8|23I9} 91r19 92r34
+24R9*Mark_Id 36r32 41r37 51r38 67r28 73r30 100c9 103e14 134r32 149r37 153r38
+. 10|34r28 37r14 41r30
+46V13*Sufficient_Stack_Space{boolean} 46>37 48r19 59s18 142b13 10|25s10
+46i37 S{11|75I12} 49r23 145r17 146r17 147r38
+57U14*SS_Allocate 57<27 58>27 10|21b14 32l8 32t19
+57m27 Address{11|121M9} 60r33 64r19 10|21b27 27m10
+58i27 Storage_Size{11|75I12} 59r42 63r35 64r48 10|22b27 25r34 26r35
+67V13*SS_Mark{24R9} 69r33 71r19 10|34b13 39l8 39t15
+73U14*SS_Release 73>26 10|41b14 50l8 50t18
+73r26 M{24R9} 74r38 75r43 79r35 10|41b26 44r29 44r52 49r39
+83i4 SS_Pool{integer} 10|18r39
+86I12 SS_Ptr{8|23I9} 88r26
+88A9 Memory(11|77M9)<8|23I9> 89r8 92r21
+92a7*Stack_Space{88A9}
+95R9 Stack_Meta_Data 98e14 123r12
+96m7*Base{11|121M9} 123m32 140r14 147r61 151r14 10|27r29 37r37 44r68 54m13
+97i7*Top{11|75I12} 124m32 144r14 146r27 147r48 156r53 10|26m16 26r29 27r63
+. 38r58 44r45 49m13
+101m7*Sstk{11|121M9} 136r10 151r23 10|37m23 44r54
+102m7*Sptr{11|121M9} 155r10 156r38 10|38m23 44r31 49r41
+105i4 Stack_Size{natural} 144r39 145r40 146r52 10|15r39 56r33
+111i4 Stack_Count{natural} 10|16r39 53r7
+117m4 Stack_Pool_Address{7|93M9} 10|17r39 55r26
+123r4 Stack{95R9} 140r8 144r8 146r21 147r42 147r55 151r8 156r47 10|14r38
+. 26m10 26r23 27r23 27r57 37r31 38r52 44r39 44r62 49m7 54m7
+X 11 s-stoele.ads
+52K16*Storage_Elements 9|11w13 20r31 11|133e28
+67I9*Storage_Offset<long_integer> 9|128r17
+75I12*Storage_Count{67I9} 9|46r45 58r50 97r18 142r45 144r24 145r25 146r37
+. 156r21 10|22r50 44r14 49r24
+77M9*Storage_Element 9|88r50
+121M9*Integer_Address 9|26r36 57r50 96r18 101r18 102r18 127r17 130r36 147r21
+. 155r21 10|21r50 27r40 38r35 56r16
+128V13*To_Integer{121M9} 10|55s14
 

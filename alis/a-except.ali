@@ -9,333 +9,353 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U ada.exceptions%b	a-except.adb		42e0da56 NE OL PK
+U ada.exceptions%b	a-except.adb		0c2680f8 NE OL PK
 W ada%s			ada.ads			ada.ali
-W ada_exceptions%s	ada_exceptions.ads	ada_exceptions.ali
-W platform%s		platform.adb		platform.ali
-W string_utils%s	string_utils.adb	string_utils.ali
+W componolit%s		componolit.ads		componolit.ali
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+W componolit.runtime.debug%s  componolit-runtime-debug.adb  componolit-runtime-debug.ali
+W componolit.runtime.exceptions%s  componolit-runtime-exceptions.ads  componolit-runtime-exceptions.ali
+W componolit.runtime.platform%s  componolit-runtime-platform.adb  componolit-runtime-platform.ali
+W componolit.runtime.strings%s  componolit-runtime-strings.adb  componolit-runtime-strings.ali
 W system%s		system.ads		system.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-U ada.exceptions%s	a-except.ads		00a21507 NE OL PR PK
+U ada.exceptions%s	a-except.ads		433702e0 NE OL PR PK
 W ada%s			ada.ads			ada.ali
 W system%s		system.ads		system.ali
 W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
 D ada.ads		00000000000000 76789da1 ada%s
-D a-except.ads		00000000000000 387ac0a1 ada.exceptions%s
-D a-except.adb		00000000000000 a1742f85 ada.exceptions%b
+D a-except.ads		00000000000000 c61a6581 ada.exceptions%s
+D a-except.adb		00000000000000 d3eb21e0 ada.exceptions%b
 D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
-D ada_exceptions.ads	00000000000000 edfdf842 ada_exceptions%s
-D platform.ads		00000000000000 9fb468df platform%s
-D ss_utils.ads		00000000000000 ccfc9289 ss_utils%s
-D string_utils.ads	00000000000000 50b6dcc4 string_utils%s
+D componolit.ads	00000000000000 9058e662 componolit%s
+D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
+D componolit-runtime-debug.ads  00000000000000 3101b889 componolit.runtime.debug%s
+D componolit-runtime-exceptions.ads  00000000000000 e89c7e41 componolit.runtime.exceptions%s
+D componolit-runtime-platform.ads  00000000000000 4e550367 componolit.runtime.platform%s
+D componolit-runtime-strings.ads  00000000000000 cafbcada componolit.runtime.strings%s
 D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
-D s-secsta.ads		00000000000000 72d62074 system.secondary_stack%s
-D s-stalib.ads		00000000000000 f911792b system.standard_library%s
-D s-stoele.ads		00000000000000 2dc34a04 system.storage_elements%s
+D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
+D s-stalib.ads		00000000000000 44e4cbec system.standard_library%s
+D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
 D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
 X 1 ada.ads
-16K9*Ada 20e8 2|15r9 58r5 3|18r14 742r5
+16K9*Ada 20e8 2|15r9 62r5 3|19r14 697r5
 X 2 a-except.ads
-15K13*Exceptions 1|16k9 2|51E9 58l9 58e19 3|18b18 742l9 742t19
-22P9*Exception_Id<12|35P9> 26r33 28r48 35r41 51c9 56r33 3|24r48 35r41
-23R9*Exception_Occurrence 24r51 38r47 40r44 41r40 43r44 52c9 54e14 3|41r47
-. 47r44 48r40 54r44
-24P9*Exception_Occurrence_Access(23R9)
-26p4*Null_Exception_Id{22P9} 56c4
-28U14*Raise_Exception_Always 28>38 29>38 3|24b14 33l8 33t30 38s7
-28p38 E{22P9} 3|24b38 26r28
-29a38 Message{string} 3|25b38 32r37
-35U14*Raise_Exception 35>31 36>31 3|35b14 39l8 39t23
-35p31 E{22P9} 3|35b31 38r31
-36a31 Message{string} 3|36b31 38r34
-38U14*Reraise_Occurrence_No_Defer 38>43 3|41b14 45l8 45t35
-38r43 X{23R9} 3|41b43 42r28
-40U14*Save_Occurrence 40<31 41>31 3|47b14 52l8 52t23
-40r31 Target{23R9} 3|47b31 51m7
-41r31 Source{23R9} 3|48b31 51r17
-43U14*Last_Chance_Handler 43>35 3|54b14 65l8 65t27
-43r35 Except{23R9} 3|54b35 55r28
+15K13*Exceptions 1|16k9 2|55E9 62l9 62e19 3|19b18 697l9 697t19
+26P9*Exception_Id<14|39P9> 30r33 32r48 39r41 55c9 60r33 3|27r48 39r41
+27R9*Exception_Occurrence 28r51 42r47 44r44 45r40 47r44 56c9 58e14 3|45r47
+. 52r44 53r40 60r44
+28P9*Exception_Occurrence_Access(27R9)
+30p4*Null_Exception_Id{26P9} 60c4
+32U14*Raise_Exception_Always 32>38 33>38 3|27b14 37l8 37t30 42s7
+32p38 E{26P9} 3|27b38 29r28
+33a38 Message{string} 3|28b38 36r11
+39U14*Raise_Exception 39>31 40>31 3|39b14 43l8 43t23
+39p31 E{26P9} 3|39b31 42r31
+40a31 Message{string} 3|40b31 42r34
+42U14*Reraise_Occurrence_No_Defer 42>43 3|45b14 50l8 50t35
+42r43 X{27R9} 3|45b43 46r28
+44U14*Save_Occurrence 44<31 45>31 3|52b14 58l8 58t23
+44r31 Target{27R9} 3|52b31 57m7
+45r31 Source{27R9} 3|53b31 57r17
+47U14*Last_Chance_Handler 47>35 3|60b14 65l8 65t27
+47r35 Except{27R9} 3|60b35 61r28
 X 3 a-except.adb
-56U17*Unhandled_Terminate 64s7
-71a4 Rmsg_00{string} 163r37
-72a4 Rmsg_01{string} 179r37
-73a4 Rmsg_02{string} 195r37
-74a4 Rmsg_03{string} 211r37
-75a4 Rmsg_04{string} 227r37
-76a4 Rmsg_05{string} 243r37
-77a4 Rmsg_06{string} 259r37
-78a4 Rmsg_07{string} 275r37
-79a4 Rmsg_08{string} 291r37
-80a4 Rmsg_09{string} 307r37
-81a4 Rmsg_10{string} 323r37
-82a4 Rmsg_11{string} 339r37
-83a4 Rmsg_12{string} 355r37
-84a4 Rmsg_13{string} 371r37
-85a4 Rmsg_14{string} 387r37
-86a4 Rmsg_15{string} 403r37
-87a4 Rmsg_16{string} 419r37
-89a4 Rmsg_17{string} 435r37
-90a4 Rmsg_18{string} 451r37
-91a4 Rmsg_19{string} 467r37
-93a4 Rmsg_20{string} 483r37
-95a4 Rmsg_21{string} 499r37
-96a4 Rmsg_22{string} 515r37
-97a4 Rmsg_23{string} 531r37
-98a4 Rmsg_24{string} 547r37
-99a4 Rmsg_25{string} 563r37
-100a4 Rmsg_26{string} 579r37
-101a4 Rmsg_27{string} 595r37
-102a4 Rmsg_28{string} 611r37
-103a4 Rmsg_29{string} 627r37
-104a4 Rmsg_30{string} 643r37
-105a4 Rmsg_31{string} 659r37
-107a4 Rmsg_32{string} 675r37
-108a4 Rmsg_33{string} 691r37
-109a4 Rmsg_34{string} 707r37
-110a4 Rmsg_35{string} 723r37
-111a4 Rmsg_36{string} 739r37
-117V13 Create_File_Line_String{string} 117>38 118>38 120b13 148l8 148t31
-. 159s32 175s32 191s32 207s32 223s32 239s32 255s32 271s32 287s32 303s32 319s32
-. 335s32 351s32 367s32 383s32 399s32 415s32 431s32 447s32 463s32 479s32 495s32
-. 511s32 527s32 543s32 559s32 575s32 591s32 607s32 623s32 639s32 655s32 671s32
-. 687s32 703s32 719s32 735s32
-117m38 File{9|83M9} 120b38 144r40
-118i38 Line{integer} 121b38 145r24
-122V16 Image{string} 122>23 124b16 141l11 141t16 145s17
-122i23 I{integer} 124b23 127r25 133r19
-126a10 S{string} 129r27 129r42 130m13 134m19 135r26 135r38 137r23 137r31
-. 140r17
-127i10 V{integer} 130r47 131m13 131r18 132r16
-129i14 J{integer} 130r16 134r22 135r29 137r26
-143a7 Msg=145:15{string} 147r14
-150U14 Rcheck_CE_Access_Check 150>38 151>38 157b14 164l8 164t30
-150m38 File{9|83M9} 157b38 159r57
-151i38 Line{integer} 158b38 159r63
-159a7 Msg{string} 163r46
-166U14 Rcheck_CE_Null_Access_Parameter 166>47 167>47 173b14 180l8 180t39
-166m47 File{9|83M9} 173b47 175r57
-167i47 Line{integer} 174b47 175r63
-175a7 Msg{string} 179r46
-182U14 Rcheck_CE_Discriminant_Check 182>44 183>44 189b14 196l8 196t36
-182m44 File{9|83M9} 189b44 191r57
-183i44 Line{integer} 190b44 191r63
-191a7 Msg{string} 195r46
-198U14 Rcheck_CE_Divide_By_Zero 198>40 199>40 205b14 212l8 212t32
-198m40 File{9|83M9} 205b40 207r57
-199i40 Line{integer} 206b40 207r63
-207a7 Msg{string} 211r46
-214U14 Rcheck_CE_Explicit_Raise 214>40 215>40 221b14 228l8 228t32
-214m40 File{9|83M9} 221b40 223r57
-215i40 Line{integer} 222b40 223r63
-223a7 Msg{string} 227r46
-230U14 Rcheck_CE_Index_Check 230>37 231>37 237b14 244l8 244t29
-230m37 File{9|83M9} 237b37 239r57
-231i37 Line{integer} 238b37 239r63
-239a7 Msg{string} 243r46
-246U14 Rcheck_CE_Invalid_Data 246>38 247>38 253b14 260l8 260t30
-246m38 File{9|83M9} 253b38 255r57
-247i38 Line{integer} 254b38 255r63
-255a7 Msg{string} 259r46
-262U14 Rcheck_CE_Length_Check 262>38 263>38 269b14 276l8 276t30
-262m38 File{9|83M9} 269b38 271r57
-263i38 Line{integer} 270b38 271r63
-271a7 Msg{string} 275r46
-278U14 Rcheck_CE_Null_Exception_Id 278>43 279>43 285b14 292l8 292t35
-278m43 File{9|83M9} 285b43 287r57
-279i43 Line{integer} 286b43 287r63
-287a7 Msg{string} 291r46
-294U14 Rcheck_CE_Null_Not_Allowed 294>42 295>42 301b14 308l8 308t34
-294m42 File{9|83M9} 301b42 303r57
-295i42 Line{integer} 302b42 303r63
-303a7 Msg{string} 307r46
-310U14 Rcheck_CE_Overflow_Check 310>40 311>40 317b14 324l8 324t32
-310m40 File{9|83M9} 317b40 319r57
-311i40 Line{integer} 318b40 319r63
-319a7 Msg{string} 323r46
-326U14 Rcheck_CE_Partition_Check 326>41 327>41 333b14 340l8 340t33
-326m41 File{9|83M9} 333b41 335r57
-327i41 Line{integer} 334b41 335r63
-335a7 Msg{string} 339r46
-342U14 Rcheck_CE_Range_Check 342>37 343>37 349b14 356l8 356t29
-342m37 File{9|83M9} 349b37 351r57
-343i37 Line{integer} 350b37 351r63
-351a7 Msg{string} 355r46
-358U14 Rcheck_CE_Tag_Check 358>35 359>35 365b14 372l8 372t27
-358m35 File{9|83M9} 365b35 367r57
-359i35 Line{integer} 366b35 367r63
-367a7 Msg{string} 371r46
-374U14 Rcheck_PE_Access_Before_Elaboration 374>51 375>51 381b14 388l8 388t43
-374m51 File{9|83M9} 381b51 383r57
-375i51 Line{integer} 382b51 383r63
-383a7 Msg{string} 387r46
-390U14 Rcheck_PE_Accessibility_Check 390>45 391>45 397b14 404l8 404t37
-390m45 File{9|83M9} 397b45 399r57
-391i45 Line{integer} 398b45 399r63
-399a7 Msg{string} 403r46
-406U14 Rcheck_PE_Address_Of_Intrinsic 406>46 407>46 413b14 420l8 420t38
-406m46 File{9|83M9} 413b46 415r57
-407i46 Line{integer} 414b46 415r63
-415a7 Msg{string} 419r46
-422U14 Rcheck_PE_Aliased_Parameters 422>44 423>44 429b14 436l8 436t36
-422m44 File{9|83M9} 429b44 431r57
-423i44 Line{integer} 430b44 431r63
-431a7 Msg{string} 435r46
-438U14 Rcheck_PE_All_Guards_Closed 438>43 439>43 445b14 452l8 452t35
-438m43 File{9|83M9} 445b43 447r57
-439i43 Line{integer} 446b43 447r63
-447a7 Msg{string} 451r46
-454U14 Rcheck_PE_Bad_Predicated_Generic_Type 454>53 455>53 461b14 468l8 468t45
-454m53 File{9|83M9} 461b53 463r57
-455i53 Line{integer} 462b53 463r63
-463a7 Msg{string} 467r46
-470U14 Rcheck_PE_Current_Task_In_Entry_Body 470>52 471>52 477b14 484l8 484t44
-470m52 File{9|83M9} 477b52 479r57
-471i52 Line{integer} 478b52 479r63
-479a7 Msg{string} 483r46
-486U14 Rcheck_PE_Duplicated_Entry_Address 486>50 487>50 493b14 500l8 500t42
-486m50 File{9|83M9} 493b50 495r57
-487i50 Line{integer} 494b50 495r63
-495a7 Msg{string} 499r46
-502U14 Rcheck_PE_Explicit_Raise 502>40 503>40 509b14 516l8 516t32
-502m40 File{9|83M9} 509b40 511r57
-503i40 Line{integer} 510b40 511r63
-511a7 Msg{string} 515r46
-518U14 Rcheck_PE_Implicit_Return 518>41 519>41 525b14 532l8 532t33
-518m41 File{9|83M9} 525b41 527r57
-519i41 Line{integer} 526b41 527r63
-527a7 Msg{string} 531r46
-534U14 Rcheck_PE_Misaligned_Address_Value 534>50 535>50 541b14 548l8 548t42
-534m50 File{9|83M9} 541b50 543r57
-535i50 Line{integer} 542b50 543r63
-543a7 Msg{string} 547r46
-550U14 Rcheck_PE_Missing_Return 550>40 551>40 557b14 564l8 564t32
-550m40 File{9|83M9} 557b40 559r57
-551i40 Line{integer} 558b40 559r63
-559a7 Msg{string} 563r46
-566U14 Rcheck_PE_Overlaid_Controlled_Object 566>52 567>52 573b14 580l8 580t44
-566m52 File{9|83M9} 573b52 575r57
-567i52 Line{integer} 574b52 575r63
-575a7 Msg{string} 579r46
-582U14 Rcheck_PE_Non_Transportable_Actual 582>50 583>50 589b14 596l8 596t42
-582m50 File{9|83M9} 589b50 591r57
-583i50 Line{integer} 590b50 591r63
-591a7 Msg{string} 595r46
-598U14 Rcheck_PE_Potentially_Blocking_Operation 598>56 599>56 605b14 612l8
-. 612t48
-598m56 File{9|83M9} 605b56 607r57
-599i56 Line{integer} 606b56 607r63
-607a7 Msg{string} 611r46
-614U14 Rcheck_PE_Stream_Operation_Not_Allowed 614>54 615>54 621b14 628l8
-. 628t46
-614m54 File{9|83M9} 621b54 623r57
-615i54 Line{integer} 622b54 623r63
-623a7 Msg{string} 627r46
-630U14 Rcheck_PE_Stubbed_Subprogram_Called 630>51 631>51 637b14 644l8 644t43
-630m51 File{9|83M9} 637b51 639r57
-631i51 Line{integer} 638b51 639r63
-639a7 Msg{string} 643r46
-646U14 Rcheck_PE_Unchecked_Union_Restriction 646>53 647>53 653b14 660l8 660t45
-646m53 File{9|83M9} 653b53 655r57
-647i53 Line{integer} 654b53 655r63
-655a7 Msg{string} 659r46
-662U14 Rcheck_PE_Finalize_Raised_Exception 662>51 663>51 669b14 676l8 676t43
-662m51 File{9|83M9} 669b51 671r57
-663i51 Line{integer} 670b51 671r63
-671a7 Msg{string} 675r46
-678U14 Rcheck_SE_Empty_Storage_Pool 678>44 679>44 685b14 692l8 692t36
-678m44 File{9|83M9} 685b44 687r57
-679i44 Line{integer} 686b44 687r63
-687a7 Msg{string} 691r46
-694U14 Rcheck_SE_Explicit_Raise 694>40 695>40 701b14 708l8 708t32
-694m40 File{9|83M9} 701b40 703r57
-695i40 Line{integer} 702b40 703r63
-703a7 Msg{string} 707r46
-710U14 Rcheck_SE_Infinite_Recursion 710>44 711>44 717b14 724l8 724t36
-710m44 File{9|83M9} 717b44 719r57
-711i44 Line{integer} 718b44 719r63
-719a7 Msg{string} 723r46
-726U14 Rcheck_SE_Object_Too_Large 726>42 727>42 733b14 740l8 740t34
-726m42 File{9|83M9} 733b42 735r57
-727i42 Line{integer} 734b42 735r63
-735a7 Msg{string} 739r46
-X 5 ada_exceptions.ads
-3K9*Ada_Exceptions 3|15w6 29r37 161r37 177r37 193r37 209r37 225r37 241r37
-. 257r37 273r37 289r37 305r37 321r37 337r37 353r37 369r37 385r37 401r37 417r37
-. 433r37 449r37 465r37 481r37 497r37 513r37 529r37 545r37 561r37 577r37 593r37
-. 609r37 625r37 641r37 657r37 673r37 689r37 705r37 721r37 737r37 5|88e19
-7n7*Undefined_Exception{6E9} 3|30r39
-8n7*CE_Explicit_Raise{6E9} 3|226r39
-9n7*CE_Access_Check{6E9} 3|162r39
-10n7*CE_Null_Access_Parameter{6E9} 3|178r39
-11n7*CE_Discriminant_Check{6E9} 3|194r39
-12n7*CE_Divide_By_Zero{6E9} 3|210r39
-13n7*CE_Index_Check{6E9} 3|242r39
-14n7*CE_Invalid_Data{6E9} 3|258r39
-15n7*CE_Length_Check{6E9} 3|274r39
-16n7*CE_Null_Exception_Id{6E9} 3|290r39
-17n7*CE_Null_Not_Allowed{6E9} 3|306r39
-18n7*CE_Overflow_Check{6E9} 3|322r39
-19n7*CE_Partition_Check{6E9} 3|338r39
-20n7*CE_Range_Check{6E9} 3|354r39
-21n7*CE_Tag_Check{6E9} 3|370r39
-22n7*PE_Explicit_Raise{6E9} 3|514r39
-23n7*PE_Access_Before_Elaboration{6E9} 3|386r39
-24n7*PE_Accessibility_Check{6E9} 3|402r39
-25n7*PE_Address_Of_Intrinsic{6E9} 3|418r39
-26n7*PE_Aliased_Parameters{6E9} 3|434r39
-27n7*PE_All_Guards_Closed{6E9} 3|450r39
-28n7*PE_Bad_Predicated_Generic_Type{6E9} 3|466r39
-29n7*PE_Current_Task_In_Entry_Body{6E9} 3|482r39
-30n7*PE_Duplicated_Entry_Address{6E9} 3|498r39
-31n7*PE_Implicit_Return{6E9} 3|530r39
-32n7*PE_Misaligned_Address_Value{6E9} 3|546r39
-33n7*PE_Missing_Return{6E9} 3|562r39
-34n7*PE_Overlaid_Controlled_Object{6E9} 3|578r39
-35n7*PE_Non_Transportable_Actual{6E9} 3|594r39
-36n7*PE_Potentially_Blocking_Operation{6E9} 3|610r39
-37n7*PE_Stream_Operation_Not_Allowed{6E9} 3|626r39
-38n7*PE_Stubbed_Subprogram_Called{6E9} 3|642r39
-39n7*PE_Unchecked_Union_Restriction{6E9} 3|658r39
-40n7*PE_Finalize_Raised_Exception{6E9} 3|674r39
-41n7*SE_Explicit_Raise{6E9} 3|706r39
-42n7*SE_Empty_Storage_Pool{6E9} 3|690r39
-43n7*SE_Infinite_Recursion{6E9} 3|722r39
-44n7*SE_Object_Too_Large{6E9} 3|738r39
-X 6 platform.ads
-13K9*Platform 3|13w6 28r7 29r7 44r7 50r7 161r7 177r7 193r7 209r7 225r7 241r7
-. 257r7 273r7 289r7 305r7 321r7 337r7 353r7 369r7 385r7 401r7 417r7 433r7
-. 449r7 465r7 481r7 497r7 513r7 529r7 545r7 561r7 577r7 593r7 609r7 625r7
-. 641r7 657r7 673r7 689r7 705r7 721r7 737r7 6|89e13
-19U14*Log_Warning 3|28s16 44s16 50s16
-53U14*Raise_Ada_Exception 3|29s16 161s16 177s16 193s16 209s16 225s16 241s16
-. 257s16 273s16 289s16 305s16 321s16 337s16 353s16 369s16 385s16 401s16 417s16
-. 433s16 449s16 465s16 481s16 497s16 513s16 529s16 545s16 561s16 577s16 593s16
-. 609s16 625s16 641s16 657s16 673s16 689s16 705s16 721s16 737s16
-X 8 string_utils.ads
-15K9*String_Utils 3|14w6 144r11 8|74e17
-29V13*Convert_To_Ada{string} 3|144s24
-X 9 system.ads
-53K9*System 2|12w6 13r6 51r29 3|16r6 16r35 117r45 120r45 150r45 157r45 166r54
-. 173r54 182r51 189r51 198r47 205r47 214r47 221r47 230r44 237r44 246r45 253r45
-. 262r45 269r45 278r50 285r50 294r49 301r49 310r47 317r47 326r48 333r48 342r44
-. 349r44 358r42 365r42 374r58 381r58 390r52 397r52 406r53 413r53 422r51 429r51
-. 438r50 445r50 454r60 461r60 470r59 477r59 486r57 493r57 502r47 509r47 518r48
-. 525r48 534r57 541r57 550r47 557r47 566r59 573r59 582r57 589r57 598r63 605r63
-. 614r61 621r61 630r58 637r58 646r60 653r60 662r58 669r58 678r51 685r51 694r47
-. 701r47 710r51 717r51 726r49 733r49 9|184e11
-83M9*Address 3|117r52 120r52 150r52 157r52 166r61 173r61 182r58 189r58 198r54
-. 205r54 214r54 221r54 230r51 237r51 246r52 253r52 262r52 269r52 278r57 285r57
-. 294r56 301r56 310r54 317r54 326r55 333r55 342r51 349r51 358r49 365r49 374r65
-. 381r65 390r59 397r59 406r60 413r60 422r58 429r58 438r57 445r57 454r67 461r67
-. 470r66 477r66 486r64 493r64 502r54 509r54 518r55 525r55 534r64 541r64 550r54
-. 557r54 566r66 573r66 582r64 589r64 598r70 605r70 614r68 621r68 630r65 637r65
-. 646r67 653r67 662r65 669r65 678r58 685r58 694r54 701r54 710r58 717r58 726r56
-. 733r56
-X 12 s-stalib.ads
-13K16*Standard_Library 2|13w13 51r36 3|16w13 16r42 12|68e28
-35P9*Exception_Data_Ptr(34R9) 2|51r53
+71a4 Rmsg_00{string} 141r58
+72a4 Rmsg_01{string} 157r11
+73a4 Rmsg_02{string} 172r64
+74a4 Rmsg_03{string} 187r60
+75a4 Rmsg_04{string} 202r60
+76a4 Rmsg_05{string} 217r57
+77a4 Rmsg_06{string} 232r58
+78a4 Rmsg_07{string} 247r58
+79a4 Rmsg_08{string} 262r63
+80a4 Rmsg_09{string} 277r62
+81a4 Rmsg_10{string} 292r60
+82a4 Rmsg_11{string} 307r61
+83a4 Rmsg_12{string} 322r57
+84a4 Rmsg_13{string} 337r55
+85a4 Rmsg_14{string} 353r11
+86a4 Rmsg_15{string} 368r65
+87a4 Rmsg_16{string} 383r66
+89a4 Rmsg_17{string} 398r64
+90a4 Rmsg_18{string} 413r63
+91a4 Rmsg_19{string} 429r11
+93a4 Rmsg_20{string} 445r11
+95a4 Rmsg_21{string} 461r11
+96a4 Rmsg_22{string} 476r60
+97a4 Rmsg_23{string} 491r61
+98a4 Rmsg_24{string} 507r11
+99a4 Rmsg_25{string} 522r60
+100a4 Rmsg_26{string} 538r11
+101a4 Rmsg_27{string} 554r11
+102a4 Rmsg_28{string} 570r11
+103a4 Rmsg_29{string} 586r11
+104a4 Rmsg_30{string} 602r11
+105a4 Rmsg_31{string} 618r11
+107a4 Rmsg_32{string} 634r11
+108a4 Rmsg_33{string} 649r64
+109a4 Rmsg_34{string} 664r60
+110a4 Rmsg_35{string} 679r64
+111a4 Rmsg_36{string} 694r62
+117V13 Create_File_Line_String{string} 117>38 118>38 120b13 127l8 127t31
+. 138s32 153s32 169s32 184s32 199s32 214s32 229s32 244s32 259s32 274s32 289s32
+. 304s32 319s32 334s32 349s32 365s32 380s32 395s32 410s32 425s32 441s32 457s32
+. 473s32 488s32 503s32 519s32 534s32 550s32 566s32 582s32 598s32 614s32 630s32
+. 646s32 661s32 676s32 691s32
+117m38 File{11|93M9} 120b38 123r54
+118i38 Line{integer} 121b38 124r51
+122a7 Msg=124:15{string} 126r14
+129U14 Rcheck_CE_Access_Check 129>38 130>38 136b14 142l8 142t30
+129m38 File{11|93M9} 136b38 138r57
+130i38 Line{integer} 137b38 138r63
+138a7 Msg{string} 141r67
+144U14 Rcheck_CE_Null_Access_Parameter 144>47 145>47 151b14 158l8 158t39
+144m47 File{11|93M9} 151b47 153r57
+145i47 Line{integer} 152b47 153r63
+153a7 Msg{string} 157r20
+160U14 Rcheck_CE_Discriminant_Check 160>44 161>44 167b14 173l8 173t36
+160m44 File{11|93M9} 167b44 169r57
+161i44 Line{integer} 168b44 169r63
+169a7 Msg{string} 172r73
+175U14 Rcheck_CE_Divide_By_Zero 175>40 176>40 182b14 188l8 188t32
+175m40 File{11|93M9} 182b40 184r57
+176i40 Line{integer} 183b40 184r63
+184a7 Msg{string} 187r69
+190U14 Rcheck_CE_Explicit_Raise 190>40 191>40 197b14 203l8 203t32
+190m40 File{11|93M9} 197b40 199r57
+191i40 Line{integer} 198b40 199r63
+199a7 Msg{string} 202r69
+205U14 Rcheck_CE_Index_Check 205>37 206>37 212b14 218l8 218t29
+205m37 File{11|93M9} 212b37 214r57
+206i37 Line{integer} 213b37 214r63
+214a7 Msg{string} 217r66
+220U14 Rcheck_CE_Invalid_Data 220>38 221>38 227b14 233l8 233t30
+220m38 File{11|93M9} 227b38 229r57
+221i38 Line{integer} 228b38 229r63
+229a7 Msg{string} 232r67
+235U14 Rcheck_CE_Length_Check 235>38 236>38 242b14 248l8 248t30
+235m38 File{11|93M9} 242b38 244r57
+236i38 Line{integer} 243b38 244r63
+244a7 Msg{string} 247r67
+250U14 Rcheck_CE_Null_Exception_Id 250>43 251>43 257b14 263l8 263t35
+250m43 File{11|93M9} 257b43 259r57
+251i43 Line{integer} 258b43 259r63
+259a7 Msg{string} 262r72
+265U14 Rcheck_CE_Null_Not_Allowed 265>42 266>42 272b14 278l8 278t34
+265m42 File{11|93M9} 272b42 274r57
+266i42 Line{integer} 273b42 274r63
+274a7 Msg{string} 277r71
+280U14 Rcheck_CE_Overflow_Check 280>40 281>40 287b14 293l8 293t32
+280m40 File{11|93M9} 287b40 289r57
+281i40 Line{integer} 288b40 289r63
+289a7 Msg{string} 292r69
+295U14 Rcheck_CE_Partition_Check 295>41 296>41 302b14 308l8 308t33
+295m41 File{11|93M9} 302b41 304r57
+296i41 Line{integer} 303b41 304r63
+304a7 Msg{string} 307r70
+310U14 Rcheck_CE_Range_Check 310>37 311>37 317b14 323l8 323t29
+310m37 File{11|93M9} 317b37 319r57
+311i37 Line{integer} 318b37 319r63
+319a7 Msg{string} 322r66
+325U14 Rcheck_CE_Tag_Check 325>35 326>35 332b14 338l8 338t27
+325m35 File{11|93M9} 332b35 334r57
+326i35 Line{integer} 333b35 334r63
+334a7 Msg{string} 337r64
+340U14 Rcheck_PE_Access_Before_Elaboration 340>51 341>51 347b14 354l8 354t43
+340m51 File{11|93M9} 347b51 349r57
+341i51 Line{integer} 348b51 349r63
+349a7 Msg{string} 353r20
+356U14 Rcheck_PE_Accessibility_Check 356>45 357>45 363b14 369l8 369t37
+356m45 File{11|93M9} 363b45 365r57
+357i45 Line{integer} 364b45 365r63
+365a7 Msg{string} 368r74
+371U14 Rcheck_PE_Address_Of_Intrinsic 371>46 372>46 378b14 384l8 384t38
+371m46 File{11|93M9} 378b46 380r57
+372i46 Line{integer} 379b46 380r63
+380a7 Msg{string} 383r75
+386U14 Rcheck_PE_Aliased_Parameters 386>44 387>44 393b14 399l8 399t36
+386m44 File{11|93M9} 393b44 395r57
+387i44 Line{integer} 394b44 395r63
+395a7 Msg{string} 398r73
+401U14 Rcheck_PE_All_Guards_Closed 401>43 402>43 408b14 414l8 414t35
+401m43 File{11|93M9} 408b43 410r57
+402i43 Line{integer} 409b43 410r63
+410a7 Msg{string} 413r72
+416U14 Rcheck_PE_Bad_Predicated_Generic_Type 416>53 417>53 423b14 430l8 430t45
+416m53 File{11|93M9} 423b53 425r57
+417i53 Line{integer} 424b53 425r63
+425a7 Msg{string} 429r20
+432U14 Rcheck_PE_Current_Task_In_Entry_Body 432>52 433>52 439b14 446l8 446t44
+432m52 File{11|93M9} 439b52 441r57
+433i52 Line{integer} 440b52 441r63
+441a7 Msg{string} 445r20
+448U14 Rcheck_PE_Duplicated_Entry_Address 448>50 449>50 455b14 462l8 462t42
+448m50 File{11|93M9} 455b50 457r57
+449i50 Line{integer} 456b50 457r63
+457a7 Msg{string} 461r20
+464U14 Rcheck_PE_Explicit_Raise 464>40 465>40 471b14 477l8 477t32
+464m40 File{11|93M9} 471b40 473r57
+465i40 Line{integer} 472b40 473r63
+473a7 Msg{string} 476r69
+479U14 Rcheck_PE_Implicit_Return 479>41 480>41 486b14 492l8 492t33
+479m41 File{11|93M9} 486b41 488r57
+480i41 Line{integer} 487b41 488r63
+488a7 Msg{string} 491r70
+494U14 Rcheck_PE_Misaligned_Address_Value 494>50 495>50 501b14 508l8 508t42
+494m50 File{11|93M9} 501b50 503r57
+495i50 Line{integer} 502b50 503r63
+503a7 Msg{string} 507r20
+510U14 Rcheck_PE_Missing_Return 510>40 511>40 517b14 523l8 523t32
+510m40 File{11|93M9} 517b40 519r57
+511i40 Line{integer} 518b40 519r63
+519a7 Msg{string} 522r69
+525U14 Rcheck_PE_Overlaid_Controlled_Object 525>52 526>52 532b14 539l8 539t44
+525m52 File{11|93M9} 532b52 534r57
+526i52 Line{integer} 533b52 534r63
+534a7 Msg{string} 538r20
+541U14 Rcheck_PE_Non_Transportable_Actual 541>50 542>50 548b14 555l8 555t42
+541m50 File{11|93M9} 548b50 550r57
+542i50 Line{integer} 549b50 550r63
+550a7 Msg{string} 554r20
+557U14 Rcheck_PE_Potentially_Blocking_Operation 557>56 558>56 564b14 571l8
+. 571t48
+557m56 File{11|93M9} 564b56 566r57
+558i56 Line{integer} 565b56 566r63
+566a7 Msg{string} 570r20
+573U14 Rcheck_PE_Stream_Operation_Not_Allowed 573>54 574>54 580b14 587l8
+. 587t46
+573m54 File{11|93M9} 580b54 582r57
+574i54 Line{integer} 581b54 582r63
+582a7 Msg{string} 586r20
+589U14 Rcheck_PE_Stubbed_Subprogram_Called 589>51 590>51 596b14 603l8 603t43
+589m51 File{11|93M9} 596b51 598r57
+590i51 Line{integer} 597b51 598r63
+598a7 Msg{string} 602r20
+605U14 Rcheck_PE_Unchecked_Union_Restriction 605>53 606>53 612b14 619l8 619t45
+605m53 File{11|93M9} 612b53 614r57
+606i53 Line{integer} 613b53 614r63
+614a7 Msg{string} 618r20
+621U14 Rcheck_PE_Finalize_Raised_Exception 621>51 622>51 628b14 635l8 635t43
+621m51 File{11|93M9} 628b51 630r57
+622i51 Line{integer} 629b51 630r63
+630a7 Msg{string} 634r20
+637U14 Rcheck_SE_Empty_Storage_Pool 637>44 638>44 644b14 650l8 650t36
+637m44 File{11|93M9} 644b44 646r57
+638i44 Line{integer} 645b44 646r63
+646a7 Msg{string} 649r73
+652U14 Rcheck_SE_Explicit_Raise 652>40 653>40 659b14 665l8 665t32
+652m40 File{11|93M9} 659b40 661r57
+653i40 Line{integer} 660b40 661r63
+661a7 Msg{string} 664r69
+667U14 Rcheck_SE_Infinite_Recursion 667>44 668>44 674b14 680l8 680t36
+667m44 File{11|93M9} 674b44 676r57
+668i44 Line{integer} 675b44 676r63
+676a7 Msg{string} 679r73
+682U14 Rcheck_SE_Object_Too_Large 682>42 683>42 689b14 695l8 695t34
+682m42 File{11|93M9} 689b42 691r57
+683i42 Line{integer} 690b42 691r63
+691a7 Msg{string} 694r71
+X 5 componolit.ads
+10K9*Componolit 3|13r6 14r6 15r6 16r6 31r7 33r7 34r11 48r7 55r7 64r7 123r11
+. 124r17 140r7 141r11 155r7 156r11 171r7 172r11 186r7 187r11 201r7 202r11
+. 216r7 217r11 231r7 232r11 246r7 247r11 261r7 262r11 276r7 277r11 291r7
+. 292r11 306r7 307r11 321r7 322r11 336r7 337r11 351r7 352r11 367r7 368r11
+. 382r7 383r11 397r7 398r11 412r7 413r11 427r7 428r11 443r7 444r11 459r7
+. 460r11 475r7 476r11 490r7 491r11 505r7 506r11 521r7 522r11 536r7 537r11
+. 552r7 553r11 568r7 569r11 584r7 585r11 600r7 601r11 616r7 617r11 632r7
+. 633r11 648r7 649r11 663r7 664r11 678r7 679r11 693r7 694r11 5|15e15
+X 6 componolit-runtime.ads
+10K20*Runtime 3|13r17 14r17 15r17 16r17 31r18 33r18 34r22 48r18 55r18 64r18
+. 123r22 124r28 140r18 141r22 155r18 156r22 171r18 172r22 186r18 187r22 201r18
+. 202r22 216r18 217r22 231r18 232r22 246r18 247r22 261r18 262r22 276r18 277r22
+. 291r18 292r22 306r18 307r22 321r18 322r22 336r18 337r22 351r18 352r22 367r18
+. 368r22 382r18 383r22 397r18 398r22 412r18 413r22 427r18 428r22 443r18 444r22
+. 459r18 460r22 475r18 476r22 490r18 491r22 505r18 506r22 521r18 522r22 536r18
+. 537r22 552r18 553r22 568r18 569r22 584r18 585r22 600r18 601r22 616r18 617r22
+. 632r18 633r22 648r18 649r22 663r18 664r22 678r18 679r22 693r18 694r22 6|15e23
+X 7 componolit-runtime-debug.ads
+12K28*Debug 3|14w25 31r26 48r26 55r26 7|46e29
+19U14*Log_Warning 3|31s32 48s32 55s32
+X 8 componolit-runtime-exceptions.ads
+3K28*Exceptions 3|16w25 34r30 141r30 156r30 172r30 187r30 202r30 217r30 232r30
+. 247r30 262r30 277r30 292r30 307r30 322r30 337r30 352r30 368r30 383r30 398r30
+. 413r30 428r30 444r30 460r30 476r30 491r30 506r30 522r30 537r30 553r30 569r30
+. 585r30 601r30 617r30 633r30 649r30 664r30 679r30 694r30 8|89e34
+8n7*Undefined_Exception{7E9} 3|34r41
+9n7*CE_Explicit_Raise{7E9} 3|202r41
+10n7*CE_Access_Check{7E9} 3|141r41
+11n7*CE_Null_Access_Parameter{7E9} 3|156r41
+12n7*CE_Discriminant_Check{7E9} 3|172r41
+13n7*CE_Divide_By_Zero{7E9} 3|187r41
+14n7*CE_Index_Check{7E9} 3|217r41
+15n7*CE_Invalid_Data{7E9} 3|232r41
+16n7*CE_Length_Check{7E9} 3|247r41
+17n7*CE_Null_Exception_Id{7E9} 3|262r41
+18n7*CE_Null_Not_Allowed{7E9} 3|277r41
+19n7*CE_Overflow_Check{7E9} 3|292r41
+20n7*CE_Partition_Check{7E9} 3|307r41
+21n7*CE_Range_Check{7E9} 3|322r41
+22n7*CE_Tag_Check{7E9} 3|337r41
+23n7*PE_Explicit_Raise{7E9} 3|476r41
+24n7*PE_Access_Before_Elaboration{7E9} 3|352r41
+25n7*PE_Accessibility_Check{7E9} 3|368r41
+26n7*PE_Address_Of_Intrinsic{7E9} 3|383r41
+27n7*PE_Aliased_Parameters{7E9} 3|398r41
+28n7*PE_All_Guards_Closed{7E9} 3|413r41
+29n7*PE_Bad_Predicated_Generic_Type{7E9} 3|428r41
+30n7*PE_Current_Task_In_Entry_Body{7E9} 3|444r41
+31n7*PE_Duplicated_Entry_Address{7E9} 3|460r41
+32n7*PE_Implicit_Return{7E9} 3|491r41
+33n7*PE_Misaligned_Address_Value{7E9} 3|506r41
+34n7*PE_Missing_Return{7E9} 3|522r41
+35n7*PE_Overlaid_Controlled_Object{7E9} 3|537r41
+36n7*PE_Non_Transportable_Actual{7E9} 3|553r41
+37n7*PE_Potentially_Blocking_Operation{7E9} 3|569r41
+38n7*PE_Stream_Operation_Not_Allowed{7E9} 3|585r41
+39n7*PE_Stubbed_Subprogram_Called{7E9} 3|601r41
+40n7*PE_Unchecked_Union_Restriction{7E9} 3|617r41
+41n7*PE_Finalize_Raised_Exception{7E9} 3|633r41
+42n7*SE_Explicit_Raise{7E9} 3|664r41
+43n7*SE_Empty_Storage_Pool{7E9} 3|649r41
+44n7*SE_Infinite_Recursion{7E9} 3|679r41
+45n7*SE_Object_Too_Large{7E9} 3|694r41
+X 9 componolit-runtime-platform.ads
+13K28*Platform 3|13w25 33r26 64r26 140r26 155r26 171r26 186r26 201r26 216r26
+. 231r26 246r26 261r26 276r26 291r26 306r26 321r26 336r26 351r26 367r26 382r26
+. 397r26 412r26 427r26 443r26 459r26 475r26 490r26 505r26 521r26 536r26 552r26
+. 568r26 584r26 600r26 616r26 632r26 648r26 663r26 678r26 693r26 9|42e32
+19U14*Raise_Ada_Exception 3|33s35 140s35 155s35 171s35 186s35 201s35 216s35
+. 231s35 246s35 261s35 276s35 291s35 306s35 321s35 336s35 351s35 367s35 382s35
+. 397s35 412s35 427s35 443s35 459s35 475s35 490s35 505s35 521s35 536s35 552s35
+. 568s35 584s35 600s35 616s35 632s35 648s35 663s35 678s35 693s35
+23U14*Terminate_Message 3|64s35
+X 10 componolit-runtime-strings.ads
+15K28*Strings 3|15w25 123r30 124r36 10|77e31
+29V13*Convert_To_Ada{string} 3|123s38
+40V13*Image{string} 3|124s44
+X 11 system.ads
+63K9*System 2|12w6 13r6 55r29 3|17r6 17r35 117r45 120r45 129r45 136r45 144r54
+. 151r54 160r51 167r51 175r47 182r47 190r47 197r47 205r44 212r44 220r45 227r45
+. 235r45 242r45 250r50 257r50 265r49 272r49 280r47 287r47 295r48 302r48 310r44
+. 317r44 325r42 332r42 340r58 347r58 356r52 363r52 371r53 378r53 386r51 393r51
+. 401r50 408r50 416r60 423r60 432r59 439r59 448r57 455r57 464r47 471r47 479r48
+. 486r48 494r57 501r57 510r47 517r47 525r59 532r59 541r57 548r57 557r63 564r63
+. 573r61 580r61 589r58 596r58 605r60 612r60 621r58 628r58 637r51 644r51 652r47
+. 659r47 667r51 674r51 682r49 689r49 11|194e11
+93M9*Address 3|117r52 120r52 129r52 136r52 144r61 151r61 160r58 167r58 175r54
+. 182r54 190r54 197r54 205r51 212r51 220r52 227r52 235r52 242r52 250r57 257r57
+. 265r56 272r56 280r54 287r54 295r55 302r55 310r51 317r51 325r49 332r49 340r65
+. 347r65 356r59 363r59 371r60 378r60 386r58 393r58 401r57 408r57 416r67 423r67
+. 432r66 439r66 448r64 455r64 464r54 471r54 479r55 486r55 494r64 501r64 510r54
+. 517r54 525r66 532r66 541r64 548r64 557r70 564r70 573r68 580r68 589r65 596r65
+. 605r67 612r67 621r65 628r65 637r58 644r58 652r54 659r54 667r58 674r58 682r56
+. 689r56
+X 14 s-stalib.ads
+13K16*Standard_Library 2|13w13 55r36 3|17w13 17r42 14|72e28
+39P9*Exception_Data_Ptr(38R9) 2|55r53
 

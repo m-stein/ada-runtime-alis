@@ -6,57 +6,56 @@ RV NO_FLOATING_POINT
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U interfaces.c%b	i-c.adb			90197321 NE OL PK
+U interfaces.c%b	i-c.adb			d3f0c580 NE OL PK
 W interfaces%s		interfac.ads		interfac.ali
 
-U interfaces.c%s	i-c.ads			6e253a8e EB NE OL PU PK
+U interfaces.c%s	i-c.ads			6bade9f0 EB NE OL PU PK
 W interfaces%s		interfac.ads		interfac.ali
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 
 D interfac.ads		00000000000000 5ab55268 interfaces%s
-D i-c.ads		00000000000000 b6217e06 interfaces.c%s
-D i-c.adb		00000000000000 26380d27 interfaces.c%b
+D i-c.ads		00000000000000 b3a9ad78 interfaces.c%s
+D i-c.adb		00000000000000 605968f8 interfaces.c%b
 D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
 X 1 interfac.ads
-38K9*Interfaces 184e15 2|18r9 113r5 3|1r14 7r5
+38K9*Interfaces 184e15 2|28r9 127r5 3|10r14 17r5
 X 2 i-c.ads
-18K20*C 1|38k9 2|113l16 113e17 3|1b25 7l16 7t17
-24N4*CHAR_BIT 42r29 49r31 78r38
-25N4*SCHAR_MIN 41r30
-26N4*SCHAR_MAX 41r43
-27N4*UCHAR_MAX 48r31
-36I9*int<integer> 44r36
-37I9*short<short_integer> 45r36
-38I9*long<long_integer> 46r36
-41I9*signed_char<short_short_integer> 42r8
-44M9*unsigned
-45M9*unsigned_short
-46M9*unsigned_long
-48M9*unsigned_char 49r8 51r26
-51M12*plain_char{48M9}
-57I9*ptrdiff_t<long_integer>
-61M9*size_t 77r30 89r31 101r32 110r32
-65F9*C_float<float>
-66F9*double<long_float>
-67F9*long_double<long_long_float>
-73E9*char<character> 75r19 75r27 77r58
-75e4*nul{73E9}
-77A9*char_array(73E9)<61M9> 78r8
-84E9*wchar_t<wide_character> 85r8 87r24 87r35 89r59
-87e4*wide_nul{84E9}
-89A9*wchar_array(84E9)<61M9>
-95E9*char16_t<wide_character> 96r19 98r26 98r38 101r60
-98e4*char16_nul{95E9} 99r19
-101A9*char16_array(95E9)<61M9> 102r19
-104E9*char32_t<wide_wide_character> 105r19 107r26 107r38 110r60
-107e4*char32_nul{104E9} 108r19
-110A9*char32_array(104E9)<61M9> 111r19
+28K20*C 1|38k9 2|127l16 127e17 3|10b25 17l16 17t17
+37N4*CHAR_BIT 55r29 62r31 92r38
+38N4*SCHAR_MIN 54r30
+39N4*SCHAR_MAX 54r43
+40N4*UCHAR_MAX 61r31
+49I9*int<integer> 57r36
+50I9*short<short_integer> 58r36
+51I9*long<long_integer> 59r36
+54I9*signed_char<short_short_integer> 55r8
+57M9*unsigned
+58M9*unsigned_short
+59M9*unsigned_long
+61M9*unsigned_char 62r8 64r26
+64M12*plain_char{61M9}
+70I9*ptrdiff_t<long_integer>
+74M9*size_t 91r30 103r31 115r32 124r32
+78F9*C_float<float>
+79F9*double<long_float>
+87E9*char<character> 89r19 89r27 91r58
+89e4*nul{87E9}
+91A9*char_array(87E9)<74M9> 92r8
+98E9*wchar_t<wide_character> 99r8 101r24 101r35 103r59
+101e4*wide_nul{98E9}
+103A9*wchar_array(98E9)<74M9>
+109E9*char16_t<wide_character> 110r19 112r26 112r38 115r60
+112e4*char16_nul{109E9} 113r19
+115A9*char16_array(109E9)<74M9> 116r19
+118E9*char32_t<wide_wide_character> 119r19 121r26 121r38 124r60
+121e4*char32_nul{118E9} 122r19
+124A9*char32_array(118E9)<74M9> 125r19
 X 4 system.ads
-53K9*System 2|16r6 38r32 39r17 58r20 59r20 61r28 4|184e11
+63K9*System 2|26r6 51r32 52r17 71r20 72r20 74r28 4|194e11
 X 5 s-parame.ads
-10K16*Parameters 2|16w13 38r39 39r24 58r27 59r27 61r35 5|44e22
-32N4*long_bits 2|38r50 39r35
-37N4*ptr_bits 2|58r38 59r38 61r46
+10K16*Parameters 2|26w13 51r39 52r24 71r27 72r27 74r35 5|46e22
+34N4*long_bits 2|51r50 52r35
+39N4*ptr_bits 2|71r38 72r38 74r46
 

@@ -14,79 +14,79 @@ U system%s		system.ads		b7b1312c NE OL PU PK
 
 D system.ads		00000000000000 b7b1312c system%s
 X 1 system.ads
-53K9*System 128E9 184l5 184e11
-62E9*Name 62e35 63r27
-62n18*SYSTEM_NAME_GNAT{62E9} 63r35
-63e4*System_Name{62E9}
-67N4*Min_Int
-68N4*Max_Int
-70N4*Max_Binary_Modulus
-71N4*Max_Nonbinary_Modulus
-73N4*Max_Base_Digits
-74N4*Max_Digits
-76N4*Max_Mantissa 77r49
-77N4*Fine_Delta
-79N4*Tick
-83M9*Address 88r28 96r33 97r33 98r33 99r33 100r33 128c9 129r28
-88m4*Null_Address{83M9} 129c4
-90N4*Storage_Unit
-91N4*Word_Size
-92N4*Memory_Size 128r24
-96V14*"<"{boolean} 96>19 96>25 102b31
-96m19 Left{83M9}
-96m25 Right{83M9}
-97V14*"<="{boolean} 97>19 97>25 103b31
-97m19 Left{83M9}
-97m25 Right{83M9}
-98V14*">"{boolean} 98>19 98>25 104b31
-98m19 Left{83M9}
-98m25 Right{83M9}
-99V14*">="{boolean} 99>19 99>25 105b31
-99m19 Left{83M9}
-99m25 Right{83M9}
-100V14*"="{boolean} 100>19 100>25 106b31
-100m19 Left{83M9}
-100m25 Right{83M9}
-110E9*Bit_Order 110e57 111r33 112r26
-110n23*High_Order_First{110E9}
-110n41*Low_Order_First{110E9}
-111e4*Default_Bit_Order{110E9} 113r26
-117i4*Max_Priority{positive}
-118i4*Max_Interrupt_Priority{positive}
-120I12*Any_Priority{integer} 121r34 122r34
-121I12*Priority{120I12} 124r32
-122I12*Interrupt_Priority{120I12}
-124i4*Default_Priority{121I12}
-148b4 AAMP{boolean}
-149b4 Backend_Divide_Checks{boolean}
-150b4 Backend_Overflow_Checks{boolean}
-151b4 Command_Line_Args{boolean}
-152b4 Configurable_Run_Time{boolean}
-153b4 Denorm{boolean}
-154b4 Duration_32_Bits{boolean}
-155b4 Exit_Status_Supported{boolean}
-156b4 Fractional_Fixed_Ops{boolean}
-157b4 Frontend_Layout{boolean}
-158b4 Machine_Overflows{boolean}
-159b4 Machine_Rounds{boolean}
-160b4 Preallocated_Stacks{boolean}
-161b4 Signed_Zeros{boolean}
-162b4 Stack_Check_Default{boolean}
-163b4 Stack_Check_Probes{boolean}
-164b4 Stack_Check_Limits{boolean}
-165b4 Support_Aggregates{boolean}
-166b4 Support_Composite_Assign{boolean}
-167b4 Support_Composite_Compare{boolean}
-168b4 Support_Long_Shifts{boolean}
-169b4 Always_Compatible_Rep{boolean}
-170b4 Suppress_Standard_Library{boolean}
-171b4 Use_Ada_Main_Program_Name{boolean}
-172b4 Frontend_Exceptions{boolean}
-173b4 ZCX_By_Default{boolean}
-177b4 Front_End_ZCX_Support{boolean}
-178b4 High_Integrity_Mode{boolean}
-179b4 Long_Shifts_Inlined{boolean}
-180b4 Functions_Return_By_DSP{boolean}
-181b4 Support_64_Bit_Divides{boolean}
-182b4 GCC_ZCX_Support{boolean}
+63K9*System 138E9 194l5 194e11
+72E9*Name 72e35 73r27
+72n18*SYSTEM_NAME_GNAT{72E9} 73r35
+73e4*System_Name{72E9}
+77N4*Min_Int
+78N4*Max_Int
+80N4*Max_Binary_Modulus
+81N4*Max_Nonbinary_Modulus
+83N4*Max_Base_Digits
+84N4*Max_Digits
+86N4*Max_Mantissa 87r49
+87N4*Fine_Delta
+89N4*Tick
+93M9*Address 98r28 106r33 107r33 108r33 109r33 110r33 138c9 139r28
+98m4*Null_Address{93M9} 139c4
+100N4*Storage_Unit
+101N4*Word_Size
+102N4*Memory_Size 138r24
+106V14*"<"{boolean} 106>19 106>25 112b31
+106m19 Left{93M9}
+106m25 Right{93M9}
+107V14*"<="{boolean} 107>19 107>25 113b31
+107m19 Left{93M9}
+107m25 Right{93M9}
+108V14*">"{boolean} 108>19 108>25 114b31
+108m19 Left{93M9}
+108m25 Right{93M9}
+109V14*">="{boolean} 109>19 109>25 115b31
+109m19 Left{93M9}
+109m25 Right{93M9}
+110V14*"="{boolean} 110>19 110>25 116b31
+110m19 Left{93M9}
+110m25 Right{93M9}
+120E9*Bit_Order 120e57 121r33 122r26
+120n23*High_Order_First{120E9}
+120n41*Low_Order_First{120E9}
+121e4*Default_Bit_Order{120E9} 123r26
+127i4*Max_Priority{positive}
+128i4*Max_Interrupt_Priority{positive}
+130I12*Any_Priority{integer} 131r34 132r34
+131I12*Priority{130I12} 134r32
+132I12*Interrupt_Priority{130I12}
+134i4*Default_Priority{131I12}
+158b4 AAMP{boolean}
+159b4 Backend_Divide_Checks{boolean}
+160b4 Backend_Overflow_Checks{boolean}
+161b4 Command_Line_Args{boolean}
+162b4 Configurable_Run_Time{boolean}
+163b4 Denorm{boolean}
+164b4 Duration_32_Bits{boolean}
+165b4 Exit_Status_Supported{boolean}
+166b4 Fractional_Fixed_Ops{boolean}
+167b4 Frontend_Layout{boolean}
+168b4 Machine_Overflows{boolean}
+169b4 Machine_Rounds{boolean}
+170b4 Preallocated_Stacks{boolean}
+171b4 Signed_Zeros{boolean}
+172b4 Stack_Check_Default{boolean}
+173b4 Stack_Check_Probes{boolean}
+174b4 Stack_Check_Limits{boolean}
+175b4 Support_Aggregates{boolean}
+176b4 Support_Composite_Assign{boolean}
+177b4 Support_Composite_Compare{boolean}
+178b4 Support_Long_Shifts{boolean}
+179b4 Always_Compatible_Rep{boolean}
+180b4 Suppress_Standard_Library{boolean}
+181b4 Use_Ada_Main_Program_Name{boolean}
+182b4 Frontend_Exceptions{boolean}
+183b4 ZCX_By_Default{boolean}
+187b4 Front_End_ZCX_Support{boolean}
+188b4 High_Integrity_Mode{boolean}
+189b4 Long_Shifts_Inlined{boolean}
+190b4 Functions_Return_By_DSP{boolean}
+191b4 Support_64_Bit_Divides{boolean}
+192b4 GCC_ZCX_Support{boolean}
 

@@ -6,30 +6,30 @@ RV NO_LONG_LONG_INTEGERS
 RV NO_STANDARD_STORAGE_POOLS
 RV SPARK_05
 
-U interfaces.c.extensions%s  i-cexten.ads	6bf383f2 NE OL PU PK
+U interfaces.c.extensions%s  i-cexten.ads	6e7b508c NE OL PU PK
 W interfaces.c%s	i-c.adb			i-c.ali
 W system%s		system.ads		system.ali
 
 D interfac.ads		00000000000000 5ab55268 interfaces%s
-D i-c.ads		00000000000000 b6217e06 interfaces.c%s
+D i-c.ads		00000000000000 b3a9ad78 interfaces.c%s
 D i-cexten.ads		00000000000000 6a63ccd8 interfaces.c.extensions%s
 D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
 X 1 interfac.ads
 38K9*Interfaces 184e15 3|37r9 467r5
 X 2 i-c.ads
-18K20*C 1|38k9 2|113e17 3|37r20 467r16
-48M9*unsigned_char
-51M12*plain_char{48M9} 3|59r20
+28K20*C 1|38k9 2|127e17 3|37r20 467r16
+61M9*unsigned_char
+64M12*plain_char{61M9} 3|59r20
 X 3 i-cexten.ads
-37K22*Extensions 2|18k20 3|467l18 467e28
-42M12*void{4|83M9}
-43M12*void_ptr{4|83M9}
-47M12*opaque_structure_def{4|83M9} 48r44
+37K22*Extensions 2|28k20 3|467l18 467e28
+42M12*void{4|93M9}
+43M12*void_ptr{4|93M9}
+47M12*opaque_structure_def{4|93M9} 48r44
 48P9*opaque_structure_def_ptr(47M12) 49r8
-53M12*incomplete_class_def{4|83M9} 54r44
+53M12*incomplete_class_def{4|93M9} 54r44
 54P9*incomplete_class_def_ptr(53M12) 55r8
-59M12*bool{2|51M12}
+59M12*bool{2|64M12}
 63I12*long_long{long_long_integer}
 64M9*unsigned_long_long 70r19 73r33 79r19 82r32
 69R9*Signed_128 71e14 72r39 73r8
@@ -166,6 +166,6 @@ X 3 i-cexten.ads
 461I9*Signed_63<long_integer> 462r8
 464I9*Signed_64<long_integer> 465r8
 X 4 system.ads
-53K9*System 3|35w6 42r24 43r24 47r36 53r36 4|184e11
-83M9*Address 3|42r31 43r31 47r43 53r43
+63K9*System 3|35w6 42r24 43r24 47r36 53r36 4|194e11
+93M9*Address 3|42r31 43r31 47r43 53r43
 

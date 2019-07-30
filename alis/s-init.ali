@@ -2,22 +2,28 @@ V "GNAT Lib v8"
 P ZX
 
 RN
+RV NO_IMPLEMENTATION_PRAGMAS
 
-U system.init%b		s-init.adb		47e413da NE OL PK
+U system.init%b		s-init.adb		584196a3 NE OL PK
 W system%s		system.ads		system.ali
 
-U system.init%s		s-init.ads		1945eb89 NE OL PR PK
+U system.init%s		s-init.ads		2aa5ccb5 NE OL PR PK
 W system%s		system.ads		system.ali
 
 D system.ads		00000000000000 b7b1312c system%s
-D s-init.ads		00000000000000 aef4daa5 system.init%s
-D s-init.adb		00000000000000 e910c97f system.init%b
+D s-init.ads		00000000000000 9d14fd99 system.init%s
+D s-init.adb		00000000000000 c5556b3a system.init%b
 X 1 system.ads
-53K9*System 184e11 2|10r9 33r5 3|10r14 32r5
+63K9*System 194e11 2|10r9 13r33 45r5 3|10r14 12r33 34r5
+93M9*Address 2|13r40 3|12r40
 X 2 s-init.ads
-10K16*Init 1|53k9 2|33l12 33e16 3|10b21 32l12 32t16
-13U14*Initialize 3|12b14 15l8 15t18
-18U14*Finalize 3|17b14 20l8 20t16
-23U14*Runtime_Initialize 3|22b14 25l8 25t26
-28U14*Runtime_Finalize 3|27b14 30l8 30t24
+10K16*Init 1|63k9 2|35E14 45l12 45e16 3|10b21 34l12 34t16
+13U14*Initialize 13>26 3|12b14 16l8 16t18
+13m26 Addr{1|93M9} 3|12b26 13r28
+18U14*Finalize 3|18b14 21l8 21t16
+23U14*Runtime_Initialize 23>34 3|23b14 27l8 27t26
+23i34 Handler{integer} 3|23b34 24r28
+28U14*Runtime_Finalize 3|29b14 32l8 32t24
+35U14 C_Runtime_Initialize 3|26s7
+40U14 C_Runtime_Finalize 3|31s7
 

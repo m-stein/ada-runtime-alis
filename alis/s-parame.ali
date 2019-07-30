@@ -15,15 +15,15 @@ D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
 D s-parame.adb		00000000000000 df5e9ff0 system.parameters%b
 X 1 system.ads
-53K9*System 184e11 2|10r9 38r25 44r5 3|1r14 7r5
-83M9*Address 2|38r32
+63K9*System 194e11 2|10r9 40r25 46r5 3|10r14 16r5
+93M9*Address 2|40r32
 X 2 s-parame.ads
-10K16*Parameters 1|53k9 2|44l12 44e22 3|1b21 7l12 7t22
-18I9*Task_Storage_Size<integer> 21r26
-21I9*Size_Type<18I9> 24r46
-24i4*Runtime_Default_Sec_Stack_Size{21I9}
-32N4*long_bits
-37N4*ptr_bits
-38M12*C_Address{1|83M9}
-41a4*C_Malloc_Linkname{string}
+10K16*Parameters 1|63k9 2|46l12 46e22 3|10b21 16l12 16t22
+20I9*Task_Storage_Size<integer> 23r26
+23I9*Size_Type<20I9> 26r46
+26i4*Runtime_Default_Sec_Stack_Size{23I9}
+34N4*long_bits
+39N4*ptr_bits
+40M12*C_Address{1|93M9}
+43a4*C_Malloc_Linkname{string}
 

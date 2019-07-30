@@ -14,9 +14,9 @@ W system%s		system.ads		system.ali
 D system.ads		00000000000000 b7b1312c system%s
 D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
 X 1 system.ads
-53K9*System 184e11 2|40r9 215r5
+63K9*System 194e11 2|40r9 215r5
 X 2 s-unstyp.ads
-40K16*Unsigned_Types 1|53k9 2|215l12 215e26
+40K16*Unsigned_Types 1|63k9 2|215l12 215e26
 44M9*Short_Short_Unsigned 101r16 102r32 105r16 106r32 109r16 110r32 113r16
 . 114r32 117r16 118r32
 45M9*Short_Unsigned 121r16 122r32 125r16 126r32 129r16 130r32 133r16 134r32
