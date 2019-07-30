@@ -1,0 +1,96 @@
+V "GNAT Lib v8"
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U componolit.runtime.strings%b  componolit-runtime-strings.adb  64761e6e NE OO PK
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U componolit.runtime.strings%s  componolit-runtime-strings.ads  eb5624b2 BN NE OO PR PK
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+N A27:4 gnatprove terminating length
+N A38:4 gnatprove terminating convert_to_ada
+N A56:4 gnatprove terminating get_char
+N A61:4 gnatprove terminating incr
+N A68:4 gnatprove terminating to_address
+N A75:4 gnatprove terminating to_pointer
+
+D ada.ads		00000000000000 76789da1 ada%s
+D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
+D componolit.ads	00000000000000 9058e662 componolit%s
+D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
+D componolit-runtime-exceptions.ads  00000000000000 e89c7e41 componolit.runtime.exceptions%s
+D componolit-runtime-platform.ads  00000000000000 4e550367 componolit.runtime.platform%s
+D componolit-runtime-strings.ads  00000000000000 cafbcada componolit.runtime.strings%s
+D componolit-runtime-strings.adb  00000000000000 ae8dd4b4 componolit.runtime.strings%b
+D system.ads		00000000000000 b7b1312c system%s
+D s-parame.ads		00000000000000 82b116e0 system.parameters%s
+D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
+D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
+D s-stoele.adb		00000000000000 d3f03793 system.storage_elements%b
+D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+X 3 componolit.ads
+10K9*Componolit 15e15 7|15r9 77r5 8|10r14 140r5
+X 4 componolit-runtime.ads
+10K20*Runtime 3|10k9 4|15e23 7|15r20 77r16 8|10r25 140r16
+X 7 componolit-runtime-strings.ads
+15K28*Strings 4|10k20 7|45E12 77l24 77e31 8|10b33 140l24 140t31
+21V13*Length{integer} 21>21 22>21 23r15 25r43 26r43 27r45 8|18b13 45l8 45t14
+. 55s36
+21m21 C_Str{9|93M9} 25r11 26r11 8|18b21 26r22 27r26 29r29
+22i21 Max_Length{natural} 23r32 8|19b21 33r16
+29V13*Convert_To_Ada{string} 29>29 30>29 31>29 34r42 36r14 37r17 38r45 8|51b13
+. 70l8 70t22
+29m29 C_Str{9|93M9} 34r11 35r11 8|51b29 55r44 60r32
+30a29 Default{string} 34r66 37r41 8|52b29 68r17
+31i29 Max_Length{natural} 36r46 8|53b29 55r51
+40V13*Image{string} 40>20 41r15 8|76b13 93l8 93t13
+40i20 J{integer} 8|76b20 79r22 85r16
+45K12 SSE=45:31 47r23 8|126r14 137r14
+47M12 Pointer{12|121M9} 49r28 51r29 59r20 63r33 70r55 8|27r35 34r22 35r18
+. 63r32 122r33 133r55
+49m4 Null_Pointer{47M12} 53r45 66r19 67r20 73r62 74r63 8|26r32
+51M12 Valid_Pointer{47M12} 55r29 58r25 58r47 8|22r14 57r16 99r29 112r25 112r47
+55V13 Get_Char{character} 55>23 56r45 8|30s18 40s21 62s24 99b13 106l8 106t16
+55m23 Ptr{51M12} 8|99b23 103r37
+58V13 Incr{51M12} 58>19 60r15 61r45 8|39s20 64s23 112b13 116l8 116t12
+58m19 Ptr{51M12} 59r14 60r29 8|112b19 115r14
+63V13 To_Address{9|93M9} 63>25 66r36 67r36 68r45 8|103s25 122b13 127l8 127t18
+63m25 Value{47M12} 66r11 67r11 8|122b25 126r30
+70V13 To_Pointer{47M12} 70>25 73r42 74r42 75r45 8|26s10 27s14 29s17 60s20
+. 133b13 138l8 138t18
+70m25 Addr{9|93M9} 73r11 74r11 8|133b25 137r30
+X 8 componolit-runtime-strings.adb
+21i7 L{integer} 33r12 37r36 38r47 41m13 41r18 44r14
+22m7 Ptr{7|51M12} 29m10 30r28 34r12 35r12 39m13 39r26 40r31
+23e7 Char{character} 30m10 32r12 40m13
+55i7 L{integer} 56r29 59r10
+56a7 Str{string} 61r19 62m13 66r17
+57m7 Cursor{7|51M12} 60m10 62r34 63r23 64m13 64r29
+61i14 C{integer} 62r18
+78a7 S{string} 81r24 81r39 82m10 86m16 87r23 87r35 89r20 89r28 92r14
+79i7 V{integer} 82r44 83m10 83r15 84r13
+81i11 I{integer} 82r13 86r19 87r26 89r23
+102e7 Char{character} 105r14
+X 9 system.ads
+63K9*System 7|10w6 11r6 12r14 13r14 21r34 25r19 26r20 29r42 34r19 35r20 45r24
+. 63r49 66r56 67r57 70r32 73r18 74r19 8|18r34 51r42 122r49 133r32 9|194e11
+93M9*Address 7|12r21 21r41 29r49 63r56 70r39 8|18r41 51r49 122r56 133r39
+98m4*Null_Address{93M9} 7|25r26 26r27 34r26 35r27 66r63 67r64 73r25 74r26
+110V14*"="{boolean} 7|25r17 26r17 34r17 35r17 66r54 67r54 73r16 74r16
+X 12 s-stoele.ads
+52K16*Storage_Elements 7|11w13 13r21 45r31 12|133e28
+121M9*Integer_Address 7|13r38 47r27
+123V13*To_Address{9|93M9} 8|126s18
+128V13*To_Integer{121M9} 8|137s18
+

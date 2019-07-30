@@ -1,0 +1,53 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U componolit.runtime.debug%b  componolit-runtime-debug.adb  356c9b03 NE OO PK
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+Z system%s		system.ads		system.ali
+
+U componolit.runtime.debug%s  componolit-runtime-debug.ads  b9bcff16 BN NE OO PR PU PK
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+W system%s		system.ads		system.ali
+
+D componolit.ads	00000000000000 9058e662 componolit%s
+D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
+D componolit-runtime-debug.ads  00000000000000 3101b889 componolit.runtime.debug%s
+D componolit-runtime-debug.adb  00000000000000 046d238a componolit.runtime.debug%b
+D system.ads		00000000000000 b7b1312c system%s
+X 1 componolit.ads
+10K9*Componolit 15e15 3|12r9 46r5 4|10r14 31r5
+X 2 componolit-runtime.ads
+10K20*Runtime 1|10k9 2|15e23 3|12r20 46r16 4|10r25 31r16
+X 3 componolit-runtime-debug.ads
+12K28*Debug 2|10k20 3|26E14 46l24 46e29 4|10b33 31l24 31t29
+18U14*Log_Debug 18>25 4|23b14
+18a25 Msg{string} 4|23b25
+19U14*Log_Warning 19>27 4|26b14
+19a27 Msg{string} 4|26b27
+20U14*Log_Error 20>25 4|29b14
+20a25 Msg{string} 4|29b25
+25U22 C_Log 25>29 4|19s7
+25m29 Str{5|93M9}
+26u14 Log 26>19 4|14b14 20l8 20t11 22r39 25r41 28r39
+26a19 Msg{string} 4|14b19 17r25
+28U14 C_Debug 28>23 4|22r44
+28m23 Str{5|93M9}
+34U14 C_Warning 34>25 4|25r46
+34m25 Str{5|93M9}
+40U14 C_Error 40>23 4|28r44
+40m23 Str{5|93M9}
+X 4 componolit-runtime-debug.adb
+17a7 C_Msg{string} 19m14 19r14
+22U14 Log_Debug_Private[3|26] 14b14 23r47
+25U14 Log_Warning_Private[3|26] 14b14 26r49
+28U14 Log_Error_Private[3|26] 14b14 29r47
+X 5 system.ads
+63K9*System 3|10w6 25r35 28r29 34r31 40r29 5|194e11
+93M9*Address 3|25r42 28r36 34r38 40r36
+

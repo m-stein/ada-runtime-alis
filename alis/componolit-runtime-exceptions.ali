@@ -1,0 +1,60 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+
+U componolit.runtime.exceptions%s  componolit-runtime-exceptions.ads  d79008f2 NE OO PR PU PK
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D componolit.ads	00000000000000 9058e662 componolit%s
+D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
+D componolit-runtime-exceptions.ads  00000000000000 e89c7e41 componolit.runtime.exceptions%s
+D system.ads		00000000000000 b7b1312c system%s
+D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+X 1 componolit.ads
+10K9*Componolit 15e15 3|3r9 89r5
+X 2 componolit-runtime.ads
+10K20*Runtime 1|10k9 2|15e23 3|3r20 89r16
+X 3 componolit-runtime-exceptions.ads
+3K28*Exceptions 2|10k20 3|89l24 89e34
+7E9*Exception_Type 46e5 48r8
+8n7*Undefined_Exception{7E9} 49r7
+9n7*CE_Explicit_Raise{7E9} 50r7
+10n7*CE_Access_Check{7E9} 51r7
+11n7*CE_Null_Access_Parameter{7E9} 52r7
+12n7*CE_Discriminant_Check{7E9} 53r7
+13n7*CE_Divide_By_Zero{7E9} 54r7
+14n7*CE_Index_Check{7E9} 55r7
+15n7*CE_Invalid_Data{7E9} 56r7
+16n7*CE_Length_Check{7E9} 57r7
+17n7*CE_Null_Exception_Id{7E9} 58r7
+18n7*CE_Null_Not_Allowed{7E9} 59r7
+19n7*CE_Overflow_Check{7E9} 60r7
+20n7*CE_Partition_Check{7E9} 61r7
+21n7*CE_Range_Check{7E9} 62r7
+22n7*CE_Tag_Check{7E9} 63r7
+23n7*PE_Explicit_Raise{7E9} 64r7
+24n7*PE_Access_Before_Elaboration{7E9} 65r7
+25n7*PE_Accessibility_Check{7E9} 66r7
+26n7*PE_Address_Of_Intrinsic{7E9} 67r7
+27n7*PE_Aliased_Parameters{7E9} 68r7
+28n7*PE_All_Guards_Closed{7E9} 69r7
+29n7*PE_Bad_Predicated_Generic_Type{7E9} 70r7
+30n7*PE_Current_Task_In_Entry_Body{7E9} 71r7
+31n7*PE_Duplicated_Entry_Address{7E9} 72r7
+32n7*PE_Implicit_Return{7E9} 73r7
+33n7*PE_Misaligned_Address_Value{7E9} 74r7
+34n7*PE_Missing_Return{7E9} 75r7
+35n7*PE_Overlaid_Controlled_Object{7E9} 76r7
+36n7*PE_Non_Transportable_Actual{7E9} 77r7
+37n7*PE_Potentially_Blocking_Operation{7E9} 78r7
+38n7*PE_Stream_Operation_Not_Allowed{7E9} 79r7
+39n7*PE_Stubbed_Subprogram_Called{7E9} 80r7
+40n7*PE_Unchecked_Union_Restriction{7E9} 81r7
+41n7*PE_Finalize_Raised_Exception{7E9} 82r7
+42n7*SE_Explicit_Raise{7E9} 83r7
+43n7*SE_Empty_Storage_Pool{7E9} 84r7
+44n7*SE_Infinite_Recursion{7E9} 85r7
+45n7*SE_Object_Too_Large{7E9} 86r7
+

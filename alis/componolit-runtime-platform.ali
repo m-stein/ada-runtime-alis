@@ -1,0 +1,58 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U componolit.runtime.platform%b  componolit-runtime-platform.adb  a4d26eaf NE OO PK
+W componolit%s		componolit.ads		componolit.ali
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+W componolit.runtime.debug%s  componolit-runtime-debug.adb  componolit-runtime-debug.ali
+Z system%s		system.ads		system.ali
+
+U componolit.runtime.platform%s  componolit-runtime-platform.ads  2e743ab9 NE OO PR PU PK
+W componolit%s		componolit.ads		componolit.ali
+W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
+W componolit.runtime.exceptions%s  componolit-runtime-exceptions.ads  componolit-runtime-exceptions.ali
+W system%s		system.ads		system.ali
+
+D componolit.ads	00000000000000 9058e662 componolit%s
+D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
+D componolit-runtime-debug.ads  00000000000000 3101b889 componolit.runtime.debug%s
+D componolit-runtime-exceptions.ads  00000000000000 e89c7e41 componolit.runtime.exceptions%s
+D componolit-runtime-platform.ads  00000000000000 4e550367 componolit.runtime.platform%s
+D componolit-runtime-platform.adb  00000000000000 db86d541 componolit.runtime.platform%b
+D system.ads		00000000000000 b7b1312c system%s
+D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+X 1 componolit.ads
+10K9*Componolit 15e15 5|11r6 13r9 42r5 6|10r6 12r14 29r7 33r5
+X 2 componolit-runtime.ads
+10K20*Runtime 1|10k9 2|15e23 5|11r17 13r20 42r16 6|10r17 12r25 29r18 33r16
+X 3 componolit-runtime-debug.ads
+12K28*Debug 46e29 6|10w25 29r26
+20U14*Log_Error 6|29s32
+X 4 componolit-runtime-exceptions.ads
+3K28*Exceptions 89e34 5|11w25 19r42 28r40 6|16r42
+7E9*Exception_Type 46e5 5|19r53 28r51 6|16r53
+X 5 componolit-runtime-platform.ads
+13K28*Platform 2|10k20 5|28E14 42l24 42e32 6|12b33 33l24 33t32
+19U14*Raise_Ada_Exception 19>35 20>35 21>35 6|16b14 24l8 24t27
+19e35 T{4|7E9} 6|16b35 23r26
+20a35 Name{string} 6|17b35 20r26
+21a35 Msg{string} 6|18b35 21r26
+23U14*Terminate_Message 23>33 24r22 6|26b14 31l8 31t25
+23a33 Msg{string} 6|26b33 29r43
+28U14 C_Raise_Exception 28>33 29>33 30>33 6|23s7
+28e33 T{4|7E9}
+29m33 Name{7|93M9}
+30m33 Msg{7|93M9}
+36U14 C_Unhandled_Terminate 40r22 6|30s7
+X 6 componolit-runtime-platform.adb
+20a7 C_Name=20:31{string} 23r29
+21a7 C_Msg=21:30{string} 23r45
+X 7 system.ads
+63K9*System 5|10w6 29r40 30r40 7|194e11
+93M9*Address 5|29r47 30r47
+
