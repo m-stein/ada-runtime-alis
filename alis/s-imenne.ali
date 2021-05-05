@@ -1,28 +1,4 @@
-V "GNAT Lib v8"
-A -fdiagnostics-color=always
-A -gnatwa
-A -nostdinc
-A -O2
-A -Wfatal-errors
-A -Wall
-A -Wno-error=implicit-fallthrough
-A --RTS=/home/lypo/genodelabs/genode/build/x86_64/var/libcache/spark
-A -gnatg
-A -gnatp
-A -gnatp
-A -gnatg
-A -gnatn2
-A -gnatd.c
-A -gnatwa
-A -fexceptions
-A -ffunction-sections
-A -fno-strict-aliasing
-A -g
-A -m64
-A -mcmodel=large
-A -fPIC
-A -mtune=generic
-A -march=x86-64
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -40,11 +16,15 @@ W system%s		system.ads		system.ali
 U system.img_enum_new%s	s-imenne.ads		d6fd37ec NE OL PU PK
 W system%s		system.ads		system.ali
 
-D ada.ads		20201123162329 76789da1 ada%s
-D a-unccon.ads		20201123162329 0e9b276f ada.unchecked_conversion%s
-D system.ads		20201123162329 b7b1312c system%s
-D s-imenne.ads		20201123162329 614c06c0 system.img_enum_new%s
-D s-imenne.adb		20201123162329 8e61fb01 system.img_enum_new%b
+D ada.ads		00000000000000 76789da1 ada%s
+D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
+D system.ads		00000000000000 b7b1312c system%s
+D s-imenne.ads		00000000000000 614c06c0 system.img_enum_new%s
+D s-imenne.adb		00000000000000 8e61fb01 system.img_enum_new%b
+G a e
+G c Z s b [image_enumeration_8 system__img_enum_new 48 14 none]
+G c Z s b [image_enumeration_16 system__img_enum_new 67 14 none]
+G c Z s b [image_enumeration_32 system__img_enum_new 76 14 none]
 X 1 ada.ads
 16K9*Ada 20e8 5|35r6 57r13 87r13 117r13
 X 2 a-unccon.ads

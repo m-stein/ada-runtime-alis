@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -32,6 +32,20 @@ D s-secsta.adb		00000000000000 5169e5c5 system.secondary_stack%b
 D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
 D s-stoele.adb		00000000000000 d3f03793 system.storage_elements%b
 D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+G a e
+G c Z s s [valid_address system__secondary_stack 26 13 none]
+G c Z s s [valid_stack system__secondary_stack 31 13 none]
+G c Z s s [valid_mark_id system__secondary_stack 36 13 none]
+G c Z s s [consistent_mark_id system__secondary_stack 41 13 none]
+G c Z s s [sufficient_stack_space system__secondary_stack 46 13 none]
+G c Z s s [valid_lower_mark_id system__secondary_stack 51 13 none]
+G c Z s b [ss_allocate system__secondary_stack 57 14 none]
+G c Z s b [ss_mark system__secondary_stack 67 13 none]
+G c Z s b [ss_release system__secondary_stack 73 14 none]
+G c Z s s [stack_meta_dataIP system__secondary_stack 95 9 none]
+G c Z s s [mark_idIP system__secondary_stack 100 9 none]
+G c Z s s [memoryIP system__secondary_stack 88 9 none]
+G c Z s s [ss_stackIP system__secondary_stack 91 9 none]
 X 3 componolit.ads
 10K9*Componolit 15e15 10|10r6 29r10 46r10 58r7
 X 4 componolit-runtime.ads

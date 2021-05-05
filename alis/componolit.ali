@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -7,6 +7,7 @@ U componolit%s		componolit.ads		9058e662 NE OO PR PU PK
 
 D componolit.ads	00000000000000 9058e662 componolit%s
 D system.ads		00000000000000 b7b1312c system%s
+G a e
 X 1 componolit.ads
 10K9*Componolit 15l5 15e15
 

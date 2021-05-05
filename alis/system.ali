@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -13,6 +13,12 @@ RV SPARK_05
 U system%s		system.ads		b7b1312c NE OL PU PK
 
 D system.ads		00000000000000 b7b1312c system%s
+G a e
+G c Z s s [Olt system 106 13 none]
+G c Z s s [Ole system 107 13 none]
+G c Z s s [Ogt system 108 13 none]
+G c Z s s [Oge system 109 13 none]
+G c Z s s [Oeq system 110 13 none]
 X 1 system.ads
 63K9*System 138E9 194l5 194e11
 72E9*Name 72e35 73r27

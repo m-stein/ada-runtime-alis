@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -12,6 +12,27 @@ U interfaces%s		interfac.ads		5ab55268 NE OL PU PK
 
 D interfac.ads		00000000000000 5ab55268 interfaces%s
 D system.ads		00000000000000 b7b1312c system%s
+G a e
+G c Z s s [shift_left interfaces 81 13 none]
+G c Z s s [shift_right interfaces 85 13 none]
+G c Z s s [shift_right_arithmetic interfaces 89 13 none]
+G c Z s s [rotate_left interfaces 93 13 none]
+G c Z s s [rotate_right interfaces 97 13 none]
+G c Z s s [shift_left interfaces 101 13 none]
+G c Z s s [shift_right interfaces 105 13 none]
+G c Z s s [shift_right_arithmetic interfaces 109 13 none]
+G c Z s s [rotate_left interfaces 113 13 none]
+G c Z s s [rotate_right interfaces 117 13 none]
+G c Z s s [shift_left interfaces 121 13 none]
+G c Z s s [shift_right interfaces 125 13 none]
+G c Z s s [shift_right_arithmetic interfaces 129 13 none]
+G c Z s s [rotate_left interfaces 133 13 none]
+G c Z s s [rotate_right interfaces 137 13 none]
+G c Z s s [shift_left interfaces 141 13 none]
+G c Z s s [shift_right interfaces 145 13 none]
+G c Z s s [shift_right_arithmetic interfaces 149 13 none]
+G c Z s s [rotate_left interfaces 153 13 none]
+G c Z s s [rotate_right interfaces 157 13 none]
 X 1 interfac.ads
 38K9*Interfaces 184l5 184e15
 46I9*Integer_8<short_short_integer> 47r8

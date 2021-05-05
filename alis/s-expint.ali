@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -13,6 +13,8 @@ W system%s		system.ads		system.ali
 D system.ads		00000000000000 b7b1312c system%s
 D s-expint.ads		00000000000000 192336fc system.exp_int%s
 D s-expint.adb		00000000000000 c4c07b1f system.exp_int%b
+G a e
+G c Z s b [exp_integer system__exp_int 37 13 none]
 X 1 system.ads
 63K9*System 194e11 2|34r9 42r5 3|32r14 83r5
 X 2 s-expint.ads

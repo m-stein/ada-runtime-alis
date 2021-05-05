@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -13,6 +13,32 @@ W system%s		system.ads		system.ali
 
 D system.ads		00000000000000 b7b1312c system%s
 D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+G a e
+G c Z s s [shift_left system__unsigned_types 100 13 none]
+G c Z s s [shift_right system__unsigned_types 104 13 none]
+G c Z s s [shift_right_arithmetic system__unsigned_types 108 13 none]
+G c Z s s [rotate_left system__unsigned_types 112 13 none]
+G c Z s s [rotate_right system__unsigned_types 116 13 none]
+G c Z s s [shift_left system__unsigned_types 120 13 none]
+G c Z s s [shift_right system__unsigned_types 124 13 none]
+G c Z s s [shift_right_arithmetic system__unsigned_types 128 13 none]
+G c Z s s [rotate_left system__unsigned_types 132 13 none]
+G c Z s s [rotate_right system__unsigned_types 136 13 none]
+G c Z s s [shift_left system__unsigned_types 140 13 none]
+G c Z s s [shift_right system__unsigned_types 144 13 none]
+G c Z s s [shift_right_arithmetic system__unsigned_types 148 13 none]
+G c Z s s [rotate_left system__unsigned_types 152 13 none]
+G c Z s s [rotate_right system__unsigned_types 156 13 none]
+G c Z s s [shift_left system__unsigned_types 160 13 none]
+G c Z s s [shift_right system__unsigned_types 164 13 none]
+G c Z s s [shift_right_arithmetic system__unsigned_types 168 13 none]
+G c Z s s [rotate_left system__unsigned_types 172 13 none]
+G c Z s s [rotate_right system__unsigned_types 176 13 none]
+G c Z s s [shift_left system__unsigned_types 180 13 none]
+G c Z s s [shift_right system__unsigned_types 184 13 none]
+G c Z s s [shift_right_arithmetic system__unsigned_types 188 13 none]
+G c Z s s [rotate_left system__unsigned_types 192 13 none]
+G c Z s s [rotate_right system__unsigned_types 196 13 none]
 X 1 system.ads
 63K9*System 194e11 2|40r9 215r5
 X 2 s-unstyp.ads

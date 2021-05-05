@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P SS ZX
 
 RN
@@ -27,6 +27,11 @@ D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
 D s-stalib.ads		00000000000000 44e4cbec system.standard_library%s
 D s-stalib.adb		00000000000000 11bb61ea system.standard_library%b
 D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
+G a e
+G c Z s s [to_ptr system__standard_library 35 13 none]
+G c Z s s [exception_dataIP system__standard_library 42 9 none]
+G c Z s s [adafinal system__standard_library 63 14 none]
+G c Z s s [dummy system__standard_library 70 13 none]
 X 1 ada.ads
 16K9*Ada 20e8 6|11r6 36r10
 X 2 a-unccon.ads

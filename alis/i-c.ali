@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -19,6 +19,11 @@ D i-c.ads		00000000000000 b3a9ad78 interfaces.c%s
 D i-c.adb		00000000000000 605968f8 interfaces.c%b
 D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
+G a e
+G c Z s s [char_arrayIP interfaces__c 91 9 none]
+G c Z s s [wchar_arrayIP interfaces__c 103 9 none]
+G c Z s s [char16_arrayIP interfaces__c 115 9 none]
+G c Z s s [char32_arrayIP interfaces__c 124 9 none]
 X 1 interfac.ads
 38K9*Interfaces 184e15 2|28r9 127r5 3|10r14 17r5
 X 2 i-c.ads

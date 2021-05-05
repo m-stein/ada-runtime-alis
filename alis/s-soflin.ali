@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P SS ZX
 
 RN
@@ -7,7 +7,7 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U system.soft_links%b	s-soflin.adb		daa8851f NE OL PK
+U system.soft_links%b	s-soflin.adb		6e7dd76c NE OL PK
 W componolit%s		componolit.ads		componolit.ali
 W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
 W componolit.runtime.debug%s  componolit-runtime-debug.adb  componolit-runtime-debug.ali
@@ -23,7 +23,7 @@ D a-except.ads		00000000000000 c61a6581 ada.exceptions%s
 D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
 D componolit.ads	00000000000000 9058e662 componolit%s
 D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
-D componolit-runtime-debug.ads  00000000000000 3101b889 componolit.runtime.debug%s
+D componolit-runtime-debug.ads  00000000000000 85d4eafa componolit.runtime.debug%s
 D system.ads		00000000000000 b7b1312c system%s
 D s-parame.ads		00000000000000 82b116e0 system.parameters%s
 D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
@@ -31,6 +31,11 @@ D s-soflin.ads		00000000000000 a9e1376a system.soft_links%s
 D s-soflin.adb		00000000000000 42480afc system.soft_links%b
 D s-stalib.ads		00000000000000 44e4cbec system.standard_library%s
 D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
+G a e
+G c Z s b [get_current_excep_nt system__soft_links 25 13 none]
+G c Z s b [get_gnat_exception system__soft_links 29 13 none]
+G c Z s b [get_jmpbuf_address_soft system__soft_links 31 13 none]
+G c Z s b [set_jmpbuf_address_soft system__soft_links 32 14 none]
 X 1 ada.ads
 16K9*Ada 20e8 10|10r6 20r19 29r39 11|23r39 27r14
 X 2 a-except.ads
@@ -43,7 +48,7 @@ X 4 componolit.ads
 X 5 componolit-runtime.ads
 10K20*Runtime 15e23 11|10r17 18r18 25r18
 X 6 componolit-runtime-debug.ads
-12K28*Debug 46e29 11|10w25 18r26 25r26
+12K28*Debug 34e29 11|10w25 18r26 25r26
 19U14*Log_Warning 11|18s32 25s32
 X 7 system.ads
 63K9*System 194e11 10|12r9 45r5 11|12r14 41r5

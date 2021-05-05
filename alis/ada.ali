@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -9,6 +9,7 @@ U ada%s			ada.ads			76789da1 NE OL PU PK
 
 D ada.ads		00000000000000 76789da1 ada%s
 D system.ads		00000000000000 b7b1312c system%s
+G a e
 X 1 ada.ads
 16K9*Ada 20l5 20e8
 

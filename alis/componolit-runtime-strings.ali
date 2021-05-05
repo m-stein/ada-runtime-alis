@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P SS ZX
 
 RN
@@ -39,6 +39,14 @@ D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
 D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
 D s-stoele.adb		00000000000000 d3f03793 system.storage_elements%b
 D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+G a e
+G c Z s b [length componolit__runtime__strings 21 13 none]
+G c Z s b [convert_to_ada componolit__runtime__strings 29 13 none]
+G c Z s b [image componolit__runtime__strings 40 13 none]
+G c Z s b [get_char componolit__runtime__strings 55 13 none]
+G c Z s b [incr componolit__runtime__strings 58 13 none]
+G c Z s b [to_address componolit__runtime__strings 63 13 none]
+G c Z s b [to_pointer componolit__runtime__strings 70 13 none]
 X 3 componolit.ads
 10K9*Componolit 15e15 7|15r9 77r5 8|10r14 140r5
 X 4 componolit-runtime.ads

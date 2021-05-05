@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -6,7 +6,7 @@ RV NO_IMPLICIT_CONDITIONALS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV SPARK_05
 
-U componolit.runtime.platform%b  componolit-runtime-platform.adb  a4d26eaf NE OO PK
+U componolit.runtime.platform%b  componolit-runtime-platform.adb  10073cdc NE OO PK
 W componolit%s		componolit.ads		componolit.ali
 W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
 W componolit.runtime.debug%s  componolit-runtime-debug.adb  componolit-runtime-debug.ali
@@ -20,18 +20,24 @@ W system%s		system.ads		system.ali
 
 D componolit.ads	00000000000000 9058e662 componolit%s
 D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
-D componolit-runtime-debug.ads  00000000000000 3101b889 componolit.runtime.debug%s
+D componolit-runtime-debug.ads  00000000000000 85d4eafa componolit.runtime.debug%s
 D componolit-runtime-exceptions.ads  00000000000000 e89c7e41 componolit.runtime.exceptions%s
 D componolit-runtime-platform.ads  00000000000000 4e550367 componolit.runtime.platform%s
 D componolit-runtime-platform.adb  00000000000000 db86d541 componolit.runtime.platform%b
 D system.ads		00000000000000 b7b1312c system%s
 D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+G a e
+G c Z s b [raise_ada_exception componolit__runtime__platform 19 14 none]
+G c Z s b [terminate_message componolit__runtime__platform 23 14 none]
+G c Z s s [c_raise_exception componolit__runtime__platform 28 14 none]
+G c Z s s [c_unhandled_terminate componolit__runtime__platform 36 14 none]
+G r c none [terminate_message componolit__runtime__platform 23 14 none] [log_error componolit__runtime__debug 20 14 none]
 X 1 componolit.ads
 10K9*Componolit 15e15 5|11r6 13r9 42r5 6|10r6 12r14 29r7 33r5
 X 2 componolit-runtime.ads
 10K20*Runtime 1|10k9 2|15e23 5|11r17 13r20 42r16 6|10r17 12r25 29r18 33r16
 X 3 componolit-runtime-debug.ads
-12K28*Debug 46e29 6|10w25 29r26
+12K28*Debug 34e29 6|10w25 29r26
 20U14*Log_Error 6|29s32
 X 4 componolit-runtime-exceptions.ads
 3K28*Exceptions 89e34 5|11w25 19r42 28r40 6|16r42

@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -13,6 +13,13 @@ W system%s		system.ads		system.ali
 D system.ads		00000000000000 b7b1312c system%s
 D s-init.ads		00000000000000 9d14fd99 system.init%s
 D s-init.adb		00000000000000 c5556b3a system.init%b
+G a e
+G c Z s b [initialize system__init 13 14 none]
+G c Z s b [finalize system__init 18 14 none]
+G c Z s b [runtime_initialize system__init 23 14 none]
+G c Z s b [runtime_finalize system__init 28 14 none]
+G c Z s s [c_runtime_initialize system__init 35 14 none]
+G c Z s s [c_runtime_finalize system__init 40 14 none]
 X 1 system.ads
 63K9*System 194e11 2|10r9 13r33 45r5 3|10r14 12r33 34r5
 93M9*Address 2|13r40 3|12r40

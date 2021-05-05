@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P SS ZX
 
 RN
@@ -9,7 +9,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U ada.exceptions%b	a-except.adb		0c2680f8 NE OL PK
+U ada.exceptions%b	a-except.adb		b8f3d28b NE OL PK
 W ada%s			ada.ads			ada.ali
 W componolit%s		componolit.ads		componolit.ali
 W componolit.runtime%s	componolit-runtime.ads	componolit-runtime.ali
@@ -32,7 +32,7 @@ D a-except.adb		00000000000000 d3eb21e0 ada.exceptions%b
 D a-unccon.ads		00000000000000 0e9b276f ada.unchecked_conversion%s
 D componolit.ads	00000000000000 9058e662 componolit%s
 D componolit-runtime.ads  00000000000000 3f0c76b3 componolit.runtime%s
-D componolit-runtime-debug.ads  00000000000000 3101b889 componolit.runtime.debug%s
+D componolit-runtime-debug.ads  00000000000000 85d4eafa componolit.runtime.debug%s
 D componolit-runtime-exceptions.ads  00000000000000 e89c7e41 componolit.runtime.exceptions%s
 D componolit-runtime-platform.ads  00000000000000 4e550367 componolit.runtime.platform%s
 D componolit-runtime-strings.ads  00000000000000 cafbcada componolit.runtime.strings%s
@@ -42,6 +42,51 @@ D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
 D s-stalib.ads		00000000000000 44e4cbec system.standard_library%s
 D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
 D s-unstyp.ads		00000000000000 34867c83 system.unsigned_types%s
+G a e
+G c Z s b [raise_exception_always ada__exceptions 32 14 none]
+G c Z s b [raise_exception ada__exceptions 39 14 none]
+G c Z s b [reraise_occurrence_no_defer ada__exceptions 42 14 none]
+G c Z s b [save_occurrence ada__exceptions 44 14 none]
+G c Z s b [last_chance_handler ada__exceptions 47 14 none]
+G c Z s s [exception_occurrenceIP ada__exceptions 56 9 none]
+G c Z b b [create_file_line_string ada__exceptions 117 13 none]
+G c Z b b [rcheck_ce_access_check ada__exceptions 129 14 none]
+G c Z b b [rcheck_ce_null_access_parameter ada__exceptions 144 14 none]
+G c Z b b [rcheck_ce_discriminant_check ada__exceptions 160 14 none]
+G c Z b b [rcheck_ce_divide_by_zero ada__exceptions 175 14 none]
+G c Z b b [rcheck_ce_explicit_raise ada__exceptions 190 14 none]
+G c Z b b [rcheck_ce_index_check ada__exceptions 205 14 none]
+G c Z b b [rcheck_ce_invalid_data ada__exceptions 220 14 none]
+G c Z b b [rcheck_ce_length_check ada__exceptions 235 14 none]
+G c Z b b [rcheck_ce_null_exception_id ada__exceptions 250 14 none]
+G c Z b b [rcheck_ce_null_not_allowed ada__exceptions 265 14 none]
+G c Z b b [rcheck_ce_overflow_check ada__exceptions 280 14 none]
+G c Z b b [rcheck_ce_partition_check ada__exceptions 295 14 none]
+G c Z b b [rcheck_ce_range_check ada__exceptions 310 14 none]
+G c Z b b [rcheck_ce_tag_check ada__exceptions 325 14 none]
+G c Z b b [rcheck_pe_access_before_elaboration ada__exceptions 340 14 none]
+G c Z b b [rcheck_pe_accessibility_check ada__exceptions 356 14 none]
+G c Z b b [rcheck_pe_address_of_intrinsic ada__exceptions 371 14 none]
+G c Z b b [rcheck_pe_aliased_parameters ada__exceptions 386 14 none]
+G c Z b b [rcheck_pe_all_guards_closed ada__exceptions 401 14 none]
+G c Z b b [rcheck_pe_bad_predicated_generic_type ada__exceptions 416 14 none]
+G c Z b b [rcheck_pe_current_task_in_entry_body ada__exceptions 432 14 none]
+G c Z b b [rcheck_pe_duplicated_entry_address ada__exceptions 448 14 none]
+G c Z b b [rcheck_pe_explicit_raise ada__exceptions 464 14 none]
+G c Z b b [rcheck_pe_implicit_return ada__exceptions 479 14 none]
+G c Z b b [rcheck_pe_misaligned_address_value ada__exceptions 494 14 none]
+G c Z b b [rcheck_pe_missing_return ada__exceptions 510 14 none]
+G c Z b b [rcheck_pe_overlaid_controlled_object ada__exceptions 525 14 none]
+G c Z b b [rcheck_pe_non_transportable_actual ada__exceptions 541 14 none]
+G c Z b b [rcheck_pe_potentially_blocking_operation ada__exceptions 557 14 none]
+G c Z b b [rcheck_pe_stream_operation_not_allowed ada__exceptions 573 14 none]
+G c Z b b [rcheck_pe_stubbed_subprogram_called ada__exceptions 589 14 none]
+G c Z b b [rcheck_pe_unchecked_union_restriction ada__exceptions 605 14 none]
+G c Z b b [rcheck_pe_finalize_raised_exception ada__exceptions 621 14 none]
+G c Z b b [rcheck_se_empty_storage_pool ada__exceptions 637 14 none]
+G c Z b b [rcheck_se_explicit_raise ada__exceptions 652 14 none]
+G c Z b b [rcheck_se_infinite_recursion ada__exceptions 667 14 none]
+G c Z b b [rcheck_se_object_too_large ada__exceptions 682 14 none]
 X 1 ada.ads
 16K9*Ada 20e8 2|15r9 62r5 3|19r14 697r5
 X 2 a-except.ads
@@ -279,7 +324,7 @@ X 6 componolit-runtime.ads
 . 537r22 552r18 553r22 568r18 569r22 584r18 585r22 600r18 601r22 616r18 617r22
 . 632r18 633r22 648r18 649r22 663r18 664r22 678r18 679r22 693r18 694r22 6|15e23
 X 7 componolit-runtime-debug.ads
-12K28*Debug 3|14w25 31r26 48r26 55r26 7|46e29
+12K28*Debug 3|14w25 31r26 48r26 55r26 7|34e29
 19U14*Log_Warning 3|31s32 48s32 55s32
 X 8 componolit-runtime-exceptions.ads
 3K28*Exceptions 3|16w25 34r30 141r30 156r30 172r30 187r30 202r30 217r30 232r30

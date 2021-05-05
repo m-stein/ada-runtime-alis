@@ -1,4 +1,4 @@
-V "GNAT Lib v8"
+V "GNAT Lib v10"
 P ZX
 
 RN
@@ -26,6 +26,15 @@ D componolit-runtime-conversions.ads  00000000000000 25186491 componolit.runtime
 D componolit-runtime-conversions.adb  00000000000000 78ab4f3d componolit.runtime.conversions%b
 D interfac.ads		00000000000000 5ab55268 interfaces%s
 D system.ads		00000000000000 b7b1312c system%s
+G a e
+G c Z s s [Oabs componolit__runtime__conversions 23 13 none]
+G c Z s b [to_int componolit__runtime__conversions 28 13 none]
+G c Z s b [to_uns componolit__runtime__conversions 36 13 none]
+G c Z s b [lemma_identity componolit__runtime__conversions 43 14 none]
+G c Z s b [lemma_uns_associativity_add componolit__runtime__conversions 48 14 none]
+G c Z s b [lemma_uns_associativity_sub componolit__runtime__conversions 54 14 none]
+G c Z b b [to_uns_unchecked componolit__runtime__conversions 16 13 none]
+G c Z b b [to_int_unchecked componolit__runtime__conversions 17 13 none]
 X 1 ada.ads
 16K9*Ada 20e8 6|10r6 16r37 17r37
 X 2 a-unccon.ads
