@@ -1,0 +1,42 @@
+V "GNAT Lib v10"
+P SS ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U system.img_lli%b	s-imglli.adb		a7d11049 NE OL PK
+W system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.img_lli%s	s-imglli.ads		4eea6bb3 NE OL PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		00000000000000 b7b1312c system%s
+D s-imglli.ads		00000000000000 f95b5a9f system.img_lli%s
+D s-imglli.adb		00000000000000 5e8a4ad6 system.img_lli%b
+D s-parame.ads		00000000000000 82b116e0 system.parameters%s
+D s-secsta.ads		00000000000000 79c513fd system.secondary_stack%s
+D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
+G a e
+G c Z s b [image_long_long_integer system__img_lli 43 13 none]
+G c Z s b [set_image_long_long_integer system__img_lli 46 14 none]
+X 1 system.ads
+63K9*System 194e11 2|40r9 57r5 3|36r14 99r5
+X 2 s-imglli.ads
+40K16*Img_LLI 1|63k9 2|41r22 57l12 57e19 3|36b21 99l12 99t19
+43V13*Image_Long_Long_Integer{string} 43>38 3|42b13 56l8 56t31
+43i38 V{long_long_integer} 3|42b38 47r10 54r36
+46U14*Set_Image_Long_Long_Integer 47>7 48<7 49=7 3|54s7 62b14 97l8 97t35
+47i7 V{long_long_integer} 3|63b7 88r10 89r23 94r22
+48a7 S{string} 3|64b7 77m13 81m13 93m10
+49i7 P{natural} 3|65b7 76m13 76r18 77r16 80m13 80r18 81r16 92m10 92r15 93r13
+X 3 s-imglli.adb
+43i7 P{natural} 48m10 49r13 51m10 54m42 54r42 55r22
+44a7 S{string} 49m10 54m39 55r14
+67U17 Set_Digits 67>29 72b17 75s13 83l11 83t21 89s10 94s10
+67i29 T{long_long_integer} 72b29 74r13 75r25 77r43 81r42
+
